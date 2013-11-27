@@ -1,0 +1,34 @@
+Schritte Migration:
+
+1. Download und unzip Liferay Version 6.2.0, lege Ordner liferay-portal-6.2.0-ga1 ins ~/code Verzeichnis
+2.0	Erstelle Backup für Datenbank (Snapshot VM)
+2.1 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
+2.2	Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
+3. Kopiere Dateien von liferay-portal-6.1.0-ga1/data* nach liferay-portal-6.2.0-ga1
+4. Kopiere portal-ext.properties und portal-ide.properties nach liferay-portal-6.2.0-ga1. Verändere die Dateien dahingehend, 
+	dass die Tomcat- und Liferayversionen wieder stimmen. Entferne außerdem permissions.user.check.algorithm=6 aus liferay-ext.properties,
+	da veraltet und Server Error wirft (jedoch ohne sichtbare Auswirkungen)
+5. Ändere auch build.politaktiv.properties in liferaySdk dahingehend, dass Liferay- und Tomcatversionen stimmen	
+6.0	Verändere im look-and-feel.xml die Versionsnummern von politaktiv-layouts, politaktiv-theme und politaktiv-empty-theme, sodass diese mit Liferay 6.2.0+ übereinstimmen
+6.1	Wie beschreiben in https://www.themeray.com/de/blog/-/blogs/no-theme-found-for-specified-theme-id-%E2%80%A6-returning-the-default-theme
+	wird context.xml-Datei mit antiResourceLocking="true" jeweils ins META-INF der Themes gesetzt. (Da "true" eigentlich etwas seltsam ist, habe ich auch false ausprobiert) 
+6.2 Build und gradle deploy
+7. Lösche calendar-portlet aus tomcat-7.0.42/webapps, da dieser beim Start fehler wirft (wurde abgesprochen, dass erlaubt) (optional)
+8. Erstelle neue Server-Instanz, basierend auf 6.2 und nun Tomcat 7.0.42
+9. Starte den Server. Im liferay-portal-6.2.0-ga1/deploy Verzeichnis befinden sich die WARs des layouts und der themes.  
+10. Uprade läuft durch, meistens keine Exceptions (nur: ERRORs von Liferay). Nach dem Upgrade jedoch Probleme beim Start. 
+
+---> Fehlermeldungen, Ausschnitte:
+
+08:40:24,947 ERROR [http-bio-8080-exec-2][velocity:151] #parse(): cannot find template '_SERVLET_CONTEXT_/wap/themes/mobile/templates/init_custom.vm', called at _SERVLET_CONTEXT_/html/themes/_unstyled/templates/init.vm[line 390, column 1]
+08:40:24,966 ERROR [http-bio-8080-exec-2][velocity:151] Exception rendering #parse(_SERVLET_CONTEXT_/html/themes/_unstyled/templates/init.vm) at _SERVLET_CONTEXT_/wap/themes/mobile/templates/portal_normal.vm[line 4, column 1]
+Nov 13, 2013 8:40:25 AM org.apache.catalina.core.ApplicationDispatcher invoke
+Schwerwiegend: Servlet.service() for servlet jsp threw exception
+org.apache.velocity.exception.ResourceNotFoundException: Unable to find Velocity template with ID _SERVLET_CONTEXT_/wap/themes/mobile/templates/init_custom.vm
+
+Weiterhin wird noch immer die Konsole stellenweise vollgespamt mit der Meldung:
+
+08:39:46,882 WARN [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+
+Zudem entsteht beim Serverbetrieb ein Leak of Memory, welches dazu führt, dass Eclipse geschlossen werden muss (das teilt Eclipse einem sogar freundlicherweise mit). 
+Aus dem Log und Recherchen im Internet wurde allerdings klar, dass dieser Fehler an obigem liegt, also nicht eigenständig ist, was eigentlich eine gute Nachricht ist. 
