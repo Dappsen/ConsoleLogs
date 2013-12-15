@@ -5,9 +5,16 @@ Schritte Migration:
 -> cd lr_migration/
 -> wget http://surfnet.dl.sourceforge.net/project/lportal/Liferay%20Portal/6.2.0%20GA1/liferay-portal-tomcat-6.2.0-ce-ga1-20131101192857659.zip
 
+1.1 download: neues LiferaySdk (Speicherplatz!!!!)
+-> git clone https://github.com/liferay/liferay-plugins.git
+-> umbenennen in liferaySdk; build.politaktiv.properties vom alten liferaySdk rüberkopieren
+-> füge außerdem folgende Zeile(n) ein (wichtig für gradle build): vis build.politaktiv.properties
+	javac.compiler=modern
+	#javac.compiler=org.eclipse.jdt.core.JDTCompilerAdapter
+1.2 download: neus LiferaySrc (Speicherplatz!!!)
+
 2.0	Erstelle Backup für Datenbank (Snapshot VM)
 -> /opt/java/DbVisualizer-8.0.8/dbvis
-
 
 
 2.1 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
