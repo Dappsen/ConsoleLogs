@@ -32,7 +32,7 @@ Schritte Migration:
 4. Kopiere portal-ext.properties und portal-ide.properties nach liferay-portal-6.2.0-ga1. 
 -> cp liferay-portal-6.1.0-ce-ga1/portal-* liferay-portal-6.2.0-ce-ga1/
 
-4.1 Verändere die Dateien dahingehend, 
+4.1 Verändere die portal-*.properties dahingehend, 
 	dass die Tomcat- und Liferayversionen wieder stimmen. Entferne außerdem permissions.user.check.algorithm=6 aus liferay-ext.properties,
 	da veraltet und Server Error wirft (jedoch ohne sichtbare Auswirkungen)
 
@@ -50,10 +50,34 @@ com.liferay.portal.deploy.hot.MessagingHotDeployListener
 -> vi liferay-portal-6.2.0-ce-ga1/portal-ide.properties
 ->
 auto.deploy.tomcat.conf.dir=/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/conf/Catalina/localhost
-->
 
-5. Ändere auch build.politaktiv.properties in liferaySdk dahingehend, dass Liferay- und Tomcatversionen stimmen	
+5. Ändere build.politaktiv.properties in liferaySdk dahingehend, dass Liferay- und Tomcatversionen stimmen	
 -> vi liferaySdk/build.politaktiv.properties
+
+6. Neues SDK installieren
+-> mv liferaySdk liferaySdk.old
+-> wget http://surfnet.dl.sourceforge.net/project/lportal/Liferay%20Portal/6.2.0%20GA1/liferay-plugins-sdk-6.2.0-ce-ga1-20131101192857659.zip
+-> unzip liferay-plugins-sdk-6.2.0-ce-ga1-20131101192857659.zip
+-> mv liferay-plugins-sdk-6.2.0 liferaySdk
+-> vi liferaySdk/build.properties
+=================
+javac.compiler=modern
+=================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 6.0	Verändere im look-and-feel.xml die Versionsnummern von politaktiv-layouts, politaktiv-theme und politaktiv-empty-theme, sodass diese mit Liferay 6.2.0+ übereinstimmen
 
