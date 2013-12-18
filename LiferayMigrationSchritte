@@ -6,19 +6,29 @@ Schritte Migration:
 -> wget http://surfnet.dl.sourceforge.net/project/lportal/Liferay%20Portal/6.2.0%20GA1/liferay-portal-tomcat-6.2.0-ce-ga1-20131101192857659.zip
 
 1.1 download: neues LiferaySdk (Speicherplatz!!!!)
+-> mv liferaySdk liferaySdk.old
+-> wget http://surfnet.dl.sourceforge.net/project/lportal/Liferay%20Portal/6.2.0%20GA1/liferay-plugins-sdk-6.2.0-ce-ga1-20131101192857659.zip
+-> unzip liferay-plugins-sdk-6.2.0-ce-ga1-20131101192857659.zip
+-> mv liferay-plugins-sdk-6.2.0 liferaySdk
+
+1.2 Build.props konfigurieren
+-> vi liferaySdk/build.properties
+=================
+javac.compiler=modern
+=================
+-> build.politaktiv.properties vom alten liferaySdk rüberkopieren
+
+1.3 TODO: Wozu brauchen wir das?
 -> git clone https://github.com/liferay/liferay-plugins.git
--> umbenennen in liferaySdk; build.politaktiv.properties vom alten liferaySdk rüberkopieren
--> füge außerdem folgende Zeile(n) ein (wichtig für gradle build): vis build.politaktiv.properties
-	javac.compiler=modern
-	#javac.compiler=org.eclipse.jdt.core.JDTCompilerAdapter
-1.2 download: neus LiferaySrc (Speicherplatz!!!)
+
+1.4 download: neus LiferaySrc (Speicherplatz!!!) 
+TODO: Wozu brauchen wir das?
+Lieber per git pull
 
 2.0	Erstelle Backup für Datenbank (Snapshot VM)
--> /opt/java/DbVisualizer-8.0.8/dbvis
-
 
 2.1 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
--> 
+-> /opt/java/DbVisualizer-8.0.8/dbvis
 
 2.2	Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
 -> delete from lportal.DLFileEntry where groupid = '11259';
@@ -53,31 +63,6 @@ auto.deploy.tomcat.conf.dir=/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/to
 
 5. Ändere build.politaktiv.properties in liferaySdk dahingehend, dass Liferay- und Tomcatversionen stimmen	
 -> vi liferaySdk/build.politaktiv.properties
-
-6. Neues SDK installieren
--> mv liferaySdk liferaySdk.old
--> wget http://surfnet.dl.sourceforge.net/project/lportal/Liferay%20Portal/6.2.0%20GA1/liferay-plugins-sdk-6.2.0-ce-ga1-20131101192857659.zip
--> unzip liferay-plugins-sdk-6.2.0-ce-ga1-20131101192857659.zip
--> mv liferay-plugins-sdk-6.2.0 liferaySdk
--> vi liferaySdk/build.properties
-=================
-javac.compiler=modern
-=================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 6.0	Verändere im look-and-feel.xml die Versionsnummern von politaktiv-layouts, politaktiv-theme und politaktiv-empty-theme, sodass diese mit Liferay 6.2.0+ übereinstimmen
 
