@@ -1,0 +1,1455 @@
+Dez 22, 2013 9:59:07 AM org.apache.catalina.core.AprLifecycleListener init
+Information: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /opt/java/jdk1.7.0_06/jre/lib/amd64/server:/opt/java/jdk1.7.0_06/jre/lib/amd64:/opt/java/jdk1.7.0_06/jre/../lib/amd64:/opt/java/jdk1.6.0_41/jre/lib/amd64/server:/opt/java/jdk1.6.0_41/jre/lib/amd64:/opt/java/jdk1.6.0_41/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dez 22, 2013 9:59:09 AM org.apache.coyote.AbstractProtocol init
+Information: Initializing ProtocolHandler ["http-bio-8080"]
+Dez 22, 2013 9:59:10 AM org.apache.coyote.AbstractProtocol init
+Information: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dez 22, 2013 9:59:10 AM org.apache.catalina.startup.Catalina load
+Information: Initialization processed in 4949 ms
+Dez 22, 2013 9:59:10 AM org.apache.catalina.core.StandardService startInternal
+Information: Starting service Catalina
+Dez 22, 2013 9:59:10 AM org.apache.catalina.core.StandardEngine startInternal
+Information: Starting Servlet Engine: Apache Tomcat/7.0.42
+Dez 22, 2013 9:59:10 AM org.apache.catalina.startup.HostConfig deployDescriptor
+Information: Deploying configuration descriptor /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/conf/Catalina/localhost/ROOT.xml
+Loading jar:file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/ROOT/WEB-INF/lib/portal-impl.jar!/system.properties
+Loading jar:file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/ROOT/WEB-INF/lib/portal-impl.jar!/system.properties
+Loading jar:file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/ROOT/WEB-INF/lib/portal-impl.jar!/portal.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/portal-ext.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/portal-ide.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/ROOT/WEB-INF/classes/portal-developer.properties
+Dez 22, 2013 10:00:19 AM org.apache.catalina.core.ApplicationContext log
+Information: Initializing Spring root WebApplicationContext
+10:00:29,357 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+10:00:29,439 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+Starting Liferay Portal Community Edition 6.2.0 CE GA1 (Newton / Build 6200 / November 1, 2013)
+10:01:30,285 INFO  [localhost-startStop-1][BaseDB:484] Database does not support case sensitive queries
+10:01:31,004 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.UpgradeProcess_6_1_1
+10:01:31,008 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_1_1.UpgradeSchema
+10:01:31,530 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_1_1.UpgradeDocumentLibrary
+10:01:33,579 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_1_1.UpgradeLayout
+10:01:33,859 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_1_1.UpgradeLayoutSet
+10:01:33,869 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_1_1.UpgradeLayoutSetBranch
+10:01:33,878 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.UpgradeProcess_6_2_0
+10:01:33,882 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeSchema
+10:01:45,778 WARN  [localhost-startStop-1][BaseDB:457] Can't DROP 'IX_DD635956'; check that column/key exists: drop index IX_DD635956 on Lock_;_ [Sanitized]
+10:01:50,168 WARN  [localhost-startStop-1][BaseDB:457] Can't DROP 'IX_8DB864A9'; check that column/key exists: drop index IX_8DB864A9 on ResourcePermission;_ [Sanitized]
+10:01:51,954 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeAnnouncements
+10:01:51,975 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeAssetPublisher
+10:01:53,822 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeBlogs
+10:01:54,128 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeBlogsAggregator
+10:01:54,153 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeCalendar
+10:01:56,160 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeCompany
+10:01:56,448 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeCustomizablePortlets
+10:01:57,062 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeDocumentLibrary
+10:01:57,170 INFO  [localhost-startStop-1][Table:155] Starting backup of DLFileEntryType to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-DLFileEntryType-1387706517168
+10:01:57,190 INFO  [localhost-startStop-1][Table:189] Finished backup of DLFileEntryType to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-DLFileEntryType-1387706517168 in 20 ms
+10:01:58,116 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeDynamicDataListDisplay
+10:01:58,134 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeDynamicDataMapping
+10:01:58,754 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeGroup
+10:01:58,806 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeImageGallery
+10:01:59,213 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeJournal
+10:02:00,922 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeLayout
+10:02:01,012 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeLayoutFriendlyURL
+10:02:03,312 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeLayoutRevision
+10:02:03,322 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeLayoutSet
+10:02:03,340 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeLayoutSetBranch
+10:02:03,359 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeMessageBoards
+10:02:04,105 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeMessageBoardsAttachments
+10:02:04,478 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradePortletItem
+10:02:04,495 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradePortletPreferences
+10:02:11,266 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeRepository
+10:02:11,282 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeSearch
+10:02:11,353 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeSocial
+10:02:14,830 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeUser
+10:02:14,872 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeWiki
+10:02:15,006 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.v6_2_0.UpgradeWikiAttachments
+10:02:20,199 INFO  [localhost-startStop-1][BaseDB:663] Dropping stale indexes
+10:02:20,337 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_8F542794 on AssetLink
+10:02:20,374 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_C0AAD74D on AssetVocabulary
+10:02:20,382 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_E52FF7EF on BookmarksEntry
+10:02:20,389 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_E2E9F129 on BookmarksEntry
+10:02:20,407 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_C9757A51 on DDMTemplate
+10:02:20,419 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_5BC0E264 on DDMTemplate
+10:02:20,430 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_5B019FE8 on DDMTemplate
+10:02:20,449 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_5B6BEF5F on DLFileEntryType
+10:02:20,463 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_1399D844 on DLFileEntryType
+10:02:20,474 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_ECCE311D on DLFileShortcut
+10:02:20,483 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_2A048EA0 on DLFolder
+10:02:20,500 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_F0A26B29 on JournalArticle
+10:02:20,519 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_CED31606 on Layout
+10:02:20,537 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_FAB5A88B on MBStatsUser
+10:02:20,547 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_33781904 on MBThreadFlag
+10:02:20,568 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_2C61314E on PortletItem
+10:02:20,583 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_8E71167F on PortletItem
+10:02:20,594 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_33B8CE8D on PortletItem
+10:02:20,608 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_8BD6BCA7 on Release_
+10:02:20,619 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_2F80C17C on ResourcePermission
+10:02:20,644 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_D2E2B644 on ResourcePermission
+10:02:20,675 INFO  [localhost-startStop-1][BaseDB:728] drop index IX_5204C37B on User_
+10:02:20,696 INFO  [localhost-startStop-1][BaseDB:75] Adding indexes
+10:02:20,699 INFO  [localhost-startStop-1][BaseDB:98] create index IX_381E55DA on Address (uuid_);
+10:02:20,724 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8FCB620E on Address (uuid_, companyId);
+10:02:20,743 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F2949120 on AnnouncementsEntry (uuid_, companyId);
+10:02:20,763 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C7F39FCA on AssetCategory (groupId, name, vocabularyId);
+10:02:20,785 INFO  [localhost-startStop-1][BaseDB:98] create index IX_852EA801 on AssetCategory (groupId, parentCategoryId, name, vocabularyId);
+10:02:20,809 INFO  [localhost-startStop-1][BaseDB:98] create index IX_87603842 on AssetCategory (groupId, parentCategoryId, vocabularyId);
+10:02:20,828 INFO  [localhost-startStop-1][BaseDB:98] create index IX_BBAF6928 on AssetCategory (uuid_, companyId);
+10:02:20,850 INFO  [localhost-startStop-1][BaseDB:98] create index IX_FEC4A201 on AssetEntry (layoutUuid);
+10:02:20,972 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_8F542794 on AssetLink (entryId1, entryId2, type_);
+10:02:20,992 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C0AAD74D on AssetVocabulary (groupId, name);
+10:02:21,026 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C4E6FD10 on AssetVocabulary (uuid_, companyId);
+10:02:21,053 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C5A6C78F on BackgroundTask (companyId);
+10:02:21,070 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5A09E5D1 on BackgroundTask (groupId);
+10:02:21,095 INFO  [localhost-startStop-1][BaseDB:98] create index IX_98CC0AAB on BackgroundTask (groupId, name, taskExecutorClassName);
+10:02:21,123 INFO  [localhost-startStop-1][BaseDB:98] create index IX_579C63B0 on BackgroundTask (groupId, name, taskExecutorClassName, completed);
+10:02:21,144 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C71C3B7 on BackgroundTask (groupId, status);
+10:02:21,168 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A73B688A on BackgroundTask (groupId, taskExecutorClassName);
+10:02:21,187 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7A9FF471 on BackgroundTask (groupId, taskExecutorClassName, completed);
+10:02:21,208 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7E757D70 on BackgroundTask (groupId, taskExecutorClassName, status);
+10:02:21,240 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C07CC7F8 on BackgroundTask (name);
+10:02:21,263 INFO  [localhost-startStop-1][BaseDB:98] create index IX_75638CDF on BackgroundTask (status);
+10:02:21,284 INFO  [localhost-startStop-1][BaseDB:98] create index IX_2FCFE748 on BackgroundTask (taskExecutorClassName, status);
+10:02:21,304 INFO  [localhost-startStop-1][BaseDB:98] create index IX_2672F77F on BlogsEntry (displayDate, status);
+10:02:21,328 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5E8307BB on BlogsEntry (uuid_, companyId);
+10:02:21,458 INFO  [localhost-startStop-1][BaseDB:98] create index IX_1F90CA2D on BookmarksEntry (companyId);
+10:02:21,506 INFO  [localhost-startStop-1][BaseDB:98] create index IX_276C8C13 on BookmarksEntry (companyId, status);
+10:02:21,542 INFO  [localhost-startStop-1][BaseDB:98] create index IX_146382F2 on BookmarksEntry (groupId, folderId, status);
+10:02:21,573 INFO  [localhost-startStop-1][BaseDB:98] create index IX_416AD7D5 on BookmarksEntry (groupId, status);
+10:02:21,590 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C78B61AC on BookmarksEntry (groupId, userId, folderId, status);
+10:02:21,605 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9D9CF70F on BookmarksEntry (groupId, userId, status);
+10:02:21,622 INFO  [localhost-startStop-1][BaseDB:98] create index IX_89BEDC4F on BookmarksEntry (uuid_, companyId);
+10:02:21,643 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C27C9DBD on BookmarksFolder (companyId, status);
+10:02:21,663 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D16018A6 on BookmarksFolder (groupId, parentFolderId, status);
+10:02:21,687 INFO  [localhost-startStop-1][BaseDB:98] create index IX_54F0ED65 on BookmarksFolder (uuid_, companyId);
+10:02:21,713 INFO  [localhost-startStop-1][BaseDB:98] create index IX_299639C6 on CalEvent (uuid_, companyId);
+10:02:21,736 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B8C28C53 on Contact_ (accountId);
+10:02:21,756 INFO  [localhost-startStop-1][BaseDB:98] create index IX_791914FA on Contact_ (classNameId, classPK);
+10:02:21,779 INFO  [localhost-startStop-1][BaseDB:98] create index IX_6A6C1C85 on DDLRecord (companyId);
+10:02:21,820 INFO  [localhost-startStop-1][BaseDB:98] create index IX_384AB6F7 on DDLRecord (uuid_, companyId);
+10:02:21,841 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5938C39F on DDLRecordSet (uuid_, companyId);
+10:02:21,860 INFO  [localhost-startStop-1][BaseDB:98] create index IX_3A9C0626 on DDMContent (uuid_, companyId);
+10:02:21,923 INFO  [localhost-startStop-1][BaseDB:98] create index IX_4FBAC092 on DDMStructure (companyId, classNameId);
+10:02:21,944 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B6ED5E50 on DDMStructure (groupId, classNameId);
+10:02:21,968 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_C8785130 on DDMStructure (groupId, classNameId, structureKey);
+10:02:21,983 INFO  [localhost-startStop-1][BaseDB:98] create index IX_43395316 on DDMStructure (groupId, parentStructureId);
+10:02:22,005 INFO  [localhost-startStop-1][BaseDB:98] create index IX_657899A8 on DDMStructure (parentStructureId);
+10:02:22,025 INFO  [localhost-startStop-1][BaseDB:98] create index IX_20FDE04C on DDMStructure (structureKey);
+10:02:22,042 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F9FB8D60 on DDMStructure (uuid_, companyId);
+10:02:22,063 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B6356F93 on DDMTemplate (classNameId, classPK, type_);
+10:02:22,079 INFO  [localhost-startStop-1][BaseDB:98] create index IX_32F83D16 on DDMTemplate (classPK);
+10:02:22,106 INFO  [localhost-startStop-1][BaseDB:98] create index IX_BD9A4A91 on DDMTemplate (groupId, classNameId);
+10:02:22,124 INFO  [localhost-startStop-1][BaseDB:98] create index IX_824ADC72 on DDMTemplate (groupId, classNameId, classPK);
+10:02:22,150 INFO  [localhost-startStop-1][BaseDB:98] create index IX_90800923 on DDMTemplate (groupId, classNameId, classPK, type_);
+10:02:22,173 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F0C3449 on DDMTemplate (groupId, classNameId, classPK, type_, mode_);
+10:02:22,192 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_E6DFAB84 on DDMTemplate (groupId, classNameId, templateKey);
+10:02:22,197 WARN  [localhost-startStop-1][BaseDB:106] BLOB/TEXT column 'templateKey' used in key specification without a key length: create unique index IX_E6DFAB84 on DDMTemplate (groupId, classNameId, templateKey);
+10:02:22,198 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B1C33EA6 on DDMTemplate (groupId, classPK);
+10:02:22,260 INFO  [localhost-startStop-1][BaseDB:98] create index IX_127A35B0 on DDMTemplate (smallImageId);
+10:02:22,279 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CAE41A28 on DDMTemplate (templateKey);
+10:02:22,282 WARN  [localhost-startStop-1][BaseDB:106] BLOB/TEXT column 'templateKey' used in key specification without a key length: create index IX_CAE41A28 on DDMTemplate (templateKey);
+10:02:22,286 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D4C2C221 on DDMTemplate (uuid_, companyId);
+10:02:22,312 INFO  [localhost-startStop-1][BaseDB:98] create index IX_772ECDE7 on DLFileEntry (fileEntryTypeId);
+10:02:22,334 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8F6C75D0 on DLFileEntry (folderId, name);
+10:02:22,355 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D9492CF6 on DLFileEntry (mimeType);
+10:02:22,374 INFO  [localhost-startStop-1][BaseDB:98] create index IX_31079DE8 on DLFileEntry (uuid_, companyId);
+10:02:22,407 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_5B6BEF5F on DLFileEntryType (groupId, fileEntryTypeKey);
+10:02:22,427 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_1399D844 on DLFileEntryType (uuid_, groupId);
+10:02:22,450 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_38F0315 on DLFileRank (companyId, userId, fileEntryId);
+10:02:22,468 INFO  [localhost-startStop-1][BaseDB:98] create index IX_4E96195B on DLFileRank (groupId, userId, active_);
+10:02:22,488 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A4BB2E58 on DLFileShortcut (companyId);
+10:02:22,508 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8571953E on DLFileShortcut (companyId, status);
+10:02:22,527 INFO  [localhost-startStop-1][BaseDB:98] create index IX_348DC3B2 on DLFileShortcut (groupId, folderId, active_);
+10:02:22,553 INFO  [localhost-startStop-1][BaseDB:98] create index IX_17EE3098 on DLFileShortcut (groupId, folderId, active_, status);
+10:02:22,576 INFO  [localhost-startStop-1][BaseDB:98] create index IX_29AE81C4 on DLFileShortcut (uuid_, companyId);
+10:02:22,601 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F389330E on DLFileVersion (companyId);
+10:02:22,624 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A0A283F4 on DLFileVersion (companyId, status);
+10:02:22,648 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9BE769ED on DLFileVersion (groupId, folderId, title, version);
+10:02:22,689 INFO  [localhost-startStop-1][BaseDB:98] create index IX_FFB3395C on DLFileVersion (mimeType);
+10:02:22,714 INFO  [localhost-startStop-1][BaseDB:98] create index IX_4BFABB9A on DLFileVersion (uuid_);
+10:02:22,733 INFO  [localhost-startStop-1][BaseDB:98] create index IX_95E9E44E on DLFileVersion (uuid_, companyId);
+10:02:22,759 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_C99B2650 on DLFileVersion (uuid_, groupId);
+10:02:22,781 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E79BE432 on DLFolder (companyId, status);
+10:02:22,800 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F78286C5 on DLFolder (groupId, mountPoint, parentFolderId, hidden_);
+10:02:22,821 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C88430AB on DLFolder (groupId, mountPoint, parentFolderId, hidden_, status);
+10:02:22,840 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CE360BF6 on DLFolder (groupId, parentFolderId, hidden_, status);
+10:02:22,865 INFO  [localhost-startStop-1][BaseDB:98] create index IX_DA448450 on DLFolder (uuid_, companyId);
+10:02:22,883 INFO  [localhost-startStop-1][BaseDB:98] create index IX_3D8E1607 on DLSyncEvent (modifiedTime);
+10:02:22,899 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_57D82B06 on DLSyncEvent (typePK);
+10:02:22,919 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D24F3956 on EmailAddress (uuid_);
+10:02:22,943 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F74AB912 on EmailAddress (uuid_, companyId);
+10:02:22,974 INFO  [localhost-startStop-1][BaseDB:98] create index IX_49EB3118 on ExpandoRow (classPK);
+10:02:22,995 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B584B5CC on Group_ (companyId, classNameId);
+10:02:23,016 INFO  [localhost-startStop-1][BaseDB:98] create index IX_ABE2D54 on Group_ (companyId, classNameId, parentGroupId);
+10:02:23,040 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5D75499E on Group_ (companyId, parentGroupId);
+10:02:23,060 INFO  [localhost-startStop-1][BaseDB:98] create index IX_6C499099 on Group_ (companyId, parentGroupId, site);
+10:02:23,079 INFO  [localhost-startStop-1][BaseDB:98] create index IX_63A2AABD on Group_ (companyId, site);
+10:02:23,096 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F981514E on Group_ (uuid_);
+10:02:23,116 INFO  [localhost-startStop-1][BaseDB:98] create index IX_26CC761A on Group_ (uuid_, companyId);
+10:02:23,176 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_754FBB1C on Group_ (uuid_, groupId);
+10:02:23,254 INFO  [localhost-startStop-1][BaseDB:98] create index IX_EA05E9E1 on JournalArticle (displayDate, status);
+10:02:23,354 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5CD17502 on JournalArticle (groupId, folderId);
+10:02:23,435 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F35391E8 on JournalArticle (groupId, folderId, status);
+10:02:23,483 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D19C1B9F on JournalArticle (groupId, userId);
+10:02:23,523 INFO  [localhost-startStop-1][BaseDB:98] create index IX_43A0F80F on JournalArticle (groupId, userId, classNameId);
+10:02:23,571 INFO  [localhost-startStop-1][BaseDB:98] create index IX_3F1EA19E on JournalArticle (layoutUuid);
+10:02:23,624 INFO  [localhost-startStop-1][BaseDB:98] create index IX_89FF8B06 on JournalArticle (resourcePrimKey, indexable);
+10:02:23,679 INFO  [localhost-startStop-1][BaseDB:98] create index IX_451D63EC on JournalArticle (resourcePrimKey, indexable, status);
+10:02:23,720 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8E8710D9 on JournalArticle (structureId);
+10:02:23,761 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9106F6CE on JournalArticle (templateId);
+10:02:23,805 INFO  [localhost-startStop-1][BaseDB:98] create index IX_71520099 on JournalArticle (uuid_, companyId);
+10:02:23,854 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8DAF8A35 on JournalContentSearch (portletId);
+10:02:23,885 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CB37A10F on JournalFeed (uuid_, companyId);
+10:02:23,909 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E6E2725D on JournalFolder (companyId);
+10:02:23,935 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C36B0443 on JournalFolder (companyId, status);
+10:02:23,974 INFO  [localhost-startStop-1][BaseDB:98] create index IX_742DEC1F on JournalFolder (groupId);
+10:02:24,000 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E988689E on JournalFolder (groupId, name);
+10:02:24,035 INFO  [localhost-startStop-1][BaseDB:98] create index IX_190483C6 on JournalFolder (groupId, parentFolderId);
+10:02:24,066 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_65026705 on JournalFolder (groupId, parentFolderId, name);
+10:02:24,089 INFO  [localhost-startStop-1][BaseDB:98] create index IX_EFD9CAC on JournalFolder (groupId, parentFolderId, status);
+10:02:24,119 INFO  [localhost-startStop-1][BaseDB:98] create index IX_63BDFA69 on JournalFolder (uuid_);
+10:02:24,150 INFO  [localhost-startStop-1][BaseDB:98] create index IX_54F89E1F on JournalFolder (uuid_, companyId);
+10:02:24,186 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_E002061 on JournalFolder (uuid_, groupId);
+10:02:24,218 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B529BFD3 on Layout (layoutPrototypeUuid);
+10:02:24,245 INFO  [localhost-startStop-1][BaseDB:98] create index IX_39A18ECC on Layout (sourcePrototypeLayoutUuid);
+10:02:24,279 INFO  [localhost-startStop-1][BaseDB:98] create index IX_2CE4BE84 on Layout (uuid_, companyId);
+10:02:24,309 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_E118C537 on Layout (uuid_, groupId, privateLayout);
+10:02:24,347 INFO  [localhost-startStop-1][BaseDB:98] create index IX_EAB317C8 on LayoutFriendlyURL (companyId);
+10:02:24,372 INFO  [localhost-startStop-1][BaseDB:98] create index IX_742EF04A on LayoutFriendlyURL (groupId);
+10:02:24,419 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CA713461 on LayoutFriendlyURL (groupId, privateLayout, friendlyURL);
+10:02:24,451 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_A6FC2B28 on LayoutFriendlyURL (groupId, privateLayout, friendlyURL, languageId);
+10:02:24,478 INFO  [localhost-startStop-1][BaseDB:98] create index IX_83AE56AB on LayoutFriendlyURL (plid);
+10:02:24,509 INFO  [localhost-startStop-1][BaseDB:98] create index IX_59051329 on LayoutFriendlyURL (plid, friendlyURL);
+10:02:24,535 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_C5762E72 on LayoutFriendlyURL (plid, languageId);
+10:02:24,562 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9F80D54 on LayoutFriendlyURL (uuid_);
+10:02:24,595 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F4321A54 on LayoutFriendlyURL (uuid_, companyId);
+10:02:24,619 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_326525D6 on LayoutFriendlyURL (uuid_, groupId);
+10:02:24,636 INFO  [localhost-startStop-1][BaseDB:98] create index IX_63ED2532 on LayoutPrototype (uuid_, companyId);
+10:02:24,662 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CCF0DA29 on LayoutSetBranch (groupId, privateLayout, master);
+10:02:24,688 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D9FFCA84 on LayoutSetPrototype (uuid_, companyId);
+10:02:24,702 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_228562AD on Lock_ (className, key_);
+10:02:24,734 INFO  [localhost-startStop-1][BaseDB:98] create index IX_2C418EAE on Lock_ (uuid_, companyId);
+10:02:24,756 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8A13C634 on MBBan (uuid_);
+10:02:24,779 INFO  [localhost-startStop-1][BaseDB:98] create index IX_4F841574 on MBBan (uuid_, companyId);
+10:02:24,801 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_2A3B68F6 on MBBan (uuid_, groupId);
+10:02:24,825 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E15A5DB5 on MBCategory (companyId, status);
+10:02:24,846 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C295DBEE on MBCategory (groupId, parentCategoryId, status);
+10:02:24,867 INFO  [localhost-startStop-1][BaseDB:98] create index IX_DA84A9F7 on MBCategory (groupId, status);
+10:02:24,889 INFO  [localhost-startStop-1][BaseDB:98] create index IX_13DF4E6D on MBCategory (uuid_, companyId);
+10:02:24,917 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5477D431 on MBDiscussion (uuid_);
+10:02:24,939 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7E965757 on MBDiscussion (uuid_, companyId);
+10:02:24,969 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_F7AAC799 on MBDiscussion (uuid_, groupId);
+10:02:24,994 INFO  [localhost-startStop-1][BaseDB:98] create index IX_FC61676E on MBMailingList (uuid_, companyId);
+10:02:25,014 INFO  [localhost-startStop-1][BaseDB:98] create index IX_57CA9FEC on MBMessage (uuid_, companyId);
+10:02:25,040 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7E264A0F on MBThread (uuid_);
+10:02:25,065 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F8CA2AB9 on MBThread (uuid_, companyId);
+10:02:25,091 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_3A200B7B on MBThread (uuid_, groupId);
+10:02:25,116 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_33781904 on MBThreadFlag (userId, threadId);
+10:02:25,133 WARN  [localhost-startStop-1][BaseDB:106] Duplicate entry '49157-45810' for key 'IX_33781904': create unique index IX_33781904 on MBThreadFlag (userId, threadId);
+10:02:25,134 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F36BBB83 on MBThreadFlag (uuid_);
+10:02:25,155 INFO  [localhost-startStop-1][BaseDB:98] create index IX_DCE308C5 on MBThreadFlag (uuid_, companyId);
+10:02:25,176 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_FEB0FC87 on MBThreadFlag (uuid_, groupId);
+10:02:25,200 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C58A516B on MDRAction (uuid_, companyId);
+10:02:25,223 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7DEA8DF1 on MDRRule (uuid_, companyId);
+10:02:25,244 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CC14DC2 on MDRRuleGroup (uuid_, companyId);
+10:02:25,266 INFO  [localhost-startStop-1][BaseDB:98] create index IX_AFF28547 on MDRRuleGroupInstance (groupId);
+10:02:25,288 INFO  [localhost-startStop-1][BaseDB:98] create index IX_25C9D1F7 on MDRRuleGroupInstance (uuid_, companyId);
+10:02:25,307 INFO  [localhost-startStop-1][BaseDB:98] create index IX_396D6B42 on Organization_ (uuid_);
+10:02:25,328 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A9D85BA6 on Organization_ (uuid_, companyId);
+10:02:25,348 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8FEE65F5 on PasswordPolicy (companyId);
+10:02:25,371 INFO  [localhost-startStop-1][BaseDB:98] create index IX_51437A01 on PasswordPolicy (uuid_);
+10:02:25,399 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E4D7EF87 on PasswordPolicy (uuid_, companyId);
+10:02:25,430 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_C3A17327 on PasswordPolicyRel (classNameId, classPK);
+10:02:25,452 INFO  [localhost-startStop-1][BaseDB:98] create index IX_EA6245A0 on Phone (uuid_);
+10:02:25,472 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B271FA88 on Phone (uuid_, companyId);
+10:02:25,495 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8AE746EF on PollsChoice (uuid_, companyId);
+10:02:25,518 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_C222BD31 on PollsChoice (uuid_, groupId);
+10:02:25,535 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F910BBB4 on PollsQuestion (uuid_, companyId);
+10:02:25,554 INFO  [localhost-startStop-1][BaseDB:98] create index IX_FD32EB70 on PollsVote (uuid_);
+10:02:25,578 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7D8E92B8 on PollsVote (uuid_, companyId);
+10:02:25,600 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_A88C673A on PollsVote (uuid_, groupId);
+10:02:25,624 INFO  [localhost-startStop-1][BaseDB:98] create index IX_2C61314E on PortletItem (groupId, portletId);
+10:02:25,644 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8E71167F on PortletItem (groupId, portletId, classNameId, name);
+10:02:25,668 INFO  [localhost-startStop-1][BaseDB:98] create index IX_33B8CE8D on PortletItem (groupId, portletId, name);
+10:02:25,687 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C9A3FCE2 on PortletPreferences (ownerId, ownerType, portletId);
+10:02:25,727 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A3B2A80C on PortletPreferences (ownerType, portletId);
+10:02:25,758 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8E6DA3A1 on PortletPreferences (portletId);
+10:02:25,791 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_A2635F5C on Region (countryId, regionCode);
+10:02:25,811 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_8BD6BCA7 on Release_ (servletContextName);
+10:02:25,828 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_60C8634C on Repository (groupId, name, portletId);
+10:02:25,849 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F543EA4 on Repository (uuid_, companyId);
+10:02:25,873 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D3B9AF62 on RepositoryEntry (uuid_, companyId);
+10:02:25,921 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_AEEA209C on ResourceBlock (companyId, groupId, name, permissionsHash);
+10:02:25,940 WARN  [localhost-startStop-1][BaseDB:106] Duplicate entry '10132-24762-com.liferay.portlet.bookmarks.model.BookmarksEntry-8' for key 'IX_AEEA209C': create unique index IX_AEEA209C on ResourceBlock (companyId, groupId, name, permissionsHash);
+10:02:25,941 INFO  [localhost-startStop-1][BaseDB:98] create index IX_20A2E3D9 on ResourceBlockPermission (roleId);
+10:02:25,962 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_8D83D0CE on ResourcePermission (companyId, name, scope, primKey, roleId);
+10:02:26,587 INFO  [localhost-startStop-1][BaseDB:98] create index IX_26284944 on ResourcePermission (companyId, primKey);
+10:02:27,051 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F3E1C6FC on Role_ (companyId, type_);
+10:02:27,079 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F92B66E6 on Role_ (type_);
+10:02:27,100 INFO  [localhost-startStop-1][BaseDB:98] create index IX_26DB26C5 on Role_ (uuid_);
+10:02:27,120 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B9FF6043 on Role_ (uuid_, companyId);
+10:02:27,141 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F542E9BC on SocialActivity (activitySetId);
+10:02:27,230 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D0E9029E on SocialActivity (classNameId, classPK, type_);
+10:02:27,342 INFO  [localhost-startStop-1][BaseDB:98] create index IX_D6666704 on SocialActivityCounter (groupId);
+10:02:27,385 INFO  [localhost-startStop-1][BaseDB:98] create index IX_18D4BAE5 on SocialActivityLimit (groupId);
+10:02:27,457 INFO  [localhost-startStop-1][BaseDB:98] create index IX_6F9EDE9F on SocialActivityLimit (userId);
+10:02:27,501 INFO  [localhost-startStop-1][BaseDB:98] create index IX_4460FA14 on SocialActivitySet (classNameId, classPK, type_);
+10:02:27,543 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9E13F2DE on SocialActivitySet (groupId);
+10:02:27,582 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9BE30DDF on SocialActivitySet (groupId, userId, classNameId, type_);
+10:02:27,630 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F71071BD on SocialActivitySet (groupId, userId, type_);
+10:02:27,669 INFO  [localhost-startStop-1][BaseDB:98] create index IX_F80C4386 on SocialActivitySet (userId);
+10:02:27,697 INFO  [localhost-startStop-1][BaseDB:98] create index IX_62AC101A on SocialActivitySet (userId, classNameId, classPK, type_);
+10:02:27,721 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8BE5F230 on SocialActivitySetting (groupId);
+10:02:27,784 INFO  [localhost-startStop-1][BaseDB:98] create index IX_9D22151E on SocialActivitySetting (groupId, classNameId);
+10:02:27,829 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5B30F663 on SocialRelation (uuid_, companyId);
+10:02:27,916 INFO  [localhost-startStop-1][BaseDB:98] create index IX_8D42897C on SocialRequest (uuid_, companyId);
+10:02:27,964 INFO  [localhost-startStop-1][BaseDB:98] create index IX_72D73D39 on SystemEvent (groupId);
+10:02:28,041 INFO  [localhost-startStop-1][BaseDB:98] create index IX_7A2F0ECE on SystemEvent (groupId, classNameId, classPK);
+10:02:28,063 INFO  [localhost-startStop-1][BaseDB:98] create index IX_FFCBB747 on SystemEvent (groupId, classNameId, classPK, type_);
+10:02:28,090 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A19C89FF on SystemEvent (groupId, systemEventSetKey);
+10:02:28,114 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_B35F73D5 on TrashEntry (classNameId, classPK);
+10:02:28,139 INFO  [localhost-startStop-1][BaseDB:98] create index IX_2674F2A8 on TrashEntry (companyId);
+10:02:28,185 INFO  [localhost-startStop-1][BaseDB:98] create index IX_526A032A on TrashEntry (groupId);
+10:02:28,230 INFO  [localhost-startStop-1][BaseDB:98] create index IX_FC4EEA64 on TrashEntry (groupId, classNameId);
+10:02:28,310 INFO  [localhost-startStop-1][BaseDB:98] create index IX_6CAAE2E8 on TrashEntry (groupId, createDate);
+10:02:28,338 INFO  [localhost-startStop-1][BaseDB:98] create index IX_630A643B on TrashVersion (classNameId, classPK);
+10:02:28,362 INFO  [localhost-startStop-1][BaseDB:98] create index IX_55D44577 on TrashVersion (entryId);
+10:02:28,386 INFO  [localhost-startStop-1][BaseDB:98] create index IX_72D58D37 on TrashVersion (entryId, classNameId);
+10:02:28,413 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_D639348C on TrashVersion (entryId, classNameId, classPK);
+10:02:28,443 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5F1DD85A on UserGroup (uuid_);
+10:02:28,538 INFO  [localhost-startStop-1][BaseDB:98] create index IX_72394F8E on UserGroup (uuid_, companyId);
+10:02:28,584 INFO  [localhost-startStop-1][BaseDB:98] create index IX_C648700A on UserNotificationDelivery (userId);
+10:02:28,627 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_8B6E3ACE on UserNotificationDelivery (userId, portletId, classNameId, notificationType, deliveryType);
+10:02:28,672 INFO  [localhost-startStop-1][BaseDB:98] create index IX_24F1BF0 on UserNotificationEvent (userId, delivered);
+10:02:28,717 INFO  [localhost-startStop-1][BaseDB:98] create index IX_A6BAFDFE on UserNotificationEvent (uuid_, companyId);
+10:02:28,737 INFO  [localhost-startStop-1][BaseDB:98] create index IX_740C4D0C on User_ (companyId, createDate);
+10:02:28,771 INFO  [localhost-startStop-1][BaseDB:98] create index IX_BCFDA257 on User_ (companyId, createDate, modifiedDate);
+10:02:28,803 INFO  [localhost-startStop-1][BaseDB:98] create index IX_EE8ABD19 on User_ (companyId, modifiedDate);
+10:02:28,838 INFO  [localhost-startStop-1][BaseDB:98] create index IX_405CC0E on User_ (uuid_, companyId);
+10:02:28,875 INFO  [localhost-startStop-1][BaseDB:98] create index IX_76F15D13 on Website (uuid_);
+10:02:28,903 INFO  [localhost-startStop-1][BaseDB:98] create index IX_712BCD35 on Website (uuid_, companyId);
+10:02:28,929 INFO  [localhost-startStop-1][BaseDB:98] create index IX_B54332D6 on WikiNode (companyId, status);
+10:02:28,955 INFO  [localhost-startStop-1][BaseDB:98] create index IX_23325358 on WikiNode (groupId, status);
+10:02:29,011 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E0E6D12C on WikiNode (uuid_, companyId);
+10:02:29,048 INFO  [localhost-startStop-1][BaseDB:98] create index IX_16E99B0A on WikiPage (groupId, nodeId, head);
+10:02:29,080 INFO  [localhost-startStop-1][BaseDB:98] create index IX_BA72B89A on WikiPage (groupId, nodeId, head, parentTitle, status);
+10:02:29,120 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E0092FF0 on WikiPage (groupId, nodeId, head, status);
+10:02:29,151 INFO  [localhost-startStop-1][BaseDB:98] create index IX_941E429C on WikiPage (groupId, nodeId, status);
+10:02:29,182 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5FF21CE6 on WikiPage (groupId, nodeId, title, head);
+10:02:29,245 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CAA451D6 on WikiPage (groupId, userId, nodeId, status);
+10:02:29,277 INFO  [localhost-startStop-1][BaseDB:98] create index IX_40F94F68 on WikiPage (nodeId, head, redirectTitle, status);
+10:02:29,312 INFO  [localhost-startStop-1][BaseDB:98] create index IX_85E7CC76 on WikiPage (resourcePrimKey);
+10:02:29,336 INFO  [localhost-startStop-1][BaseDB:98] create index IX_E1F55FB on WikiPage (resourcePrimKey, nodeId, head);
+10:02:29,400 INFO  [localhost-startStop-1][BaseDB:98] create index IX_1725355C on WikiPage (resourcePrimKey, status);
+10:02:29,428 INFO  [localhost-startStop-1][BaseDB:98] create index IX_5DC4BD39 on WikiPage (uuid_, companyId);
+10:02:29,588 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyProcessSuite
+10:02:29,591 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyProperties
+10:02:29,606 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDB2
+10:02:29,607 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyMySQL
+10:02:30,050 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyOracle
+10:02:30,053 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifySQLServer
+10:02:30,054 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyUUID
+10:03:03,596 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyPermission
+10:03:08,507 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyGroup
+10:03:11,395 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyRole
+10:03:11,928 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyAsset
+10:03:11,941 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.util.UpgradeAssetPublisherManualEntries
+10:03:11,993 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyAuditedModel
+10:03:38,003 WARN  [localhost-startStop-1][VerifyAuditedModel:252] Unable to verify model PollsVote
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '14861-10879' for key 'IX_1BBFD4D3'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:248)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:316)
+	at com.liferay.portal.verify.VerifyAuditedModel.doVerify(VerifyAuditedModel.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:66)
+	at com.liferay.portal.verify.VerifyProcessSuite.doVerify(VerifyProcessSuite.java:38)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:111)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:76)
+	at com.liferay.portal.verify.VerifyProcessUtil.verifyProcess(VerifyProcessUtil.java:46)
+	at com.liferay.portal.events.StartupHelper.verifyProcess(StartupHelper.java:146)
+	at com.liferay.portal.events.StartupHelperUtil.verifyProcess(StartupHelperUtil.java:67)
+	at com.liferay.portal.tools.DBUpgrader.verify(DBUpgrader.java:240)
+	at com.liferay.portal.events.StartupAction.doRun(StartupAction.java:206)
+	at com.liferay.portal.events.StartupAction.run(StartupAction.java:68)
+	at com.liferay.portal.servlet.MainServlet.processStartupEvents(MainServlet.java:1238)
+	at com.liferay.portal.servlet.MainServlet.init(MainServlet.java:206)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+10:03:38,030 WARN  [localhost-startStop-1][VerifyAuditedModel:252] Unable to verify model PollsVote
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '14869-10879' for key 'IX_1BBFD4D3'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:248)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:316)
+	at com.liferay.portal.verify.VerifyAuditedModel.doVerify(VerifyAuditedModel.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:66)
+	at com.liferay.portal.verify.VerifyProcessSuite.doVerify(VerifyProcessSuite.java:38)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:111)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:76)
+	at com.liferay.portal.verify.VerifyProcessUtil.verifyProcess(VerifyProcessUtil.java:46)
+	at com.liferay.portal.events.StartupHelper.verifyProcess(StartupHelper.java:146)
+	at com.liferay.portal.events.StartupHelperUtil.verifyProcess(StartupHelperUtil.java:67)
+	at com.liferay.portal.tools.DBUpgrader.verify(DBUpgrader.java:240)
+	at com.liferay.portal.events.StartupAction.doRun(StartupAction.java:206)
+	at com.liferay.portal.events.StartupAction.run(StartupAction.java:68)
+	at com.liferay.portal.servlet.MainServlet.processStartupEvents(MainServlet.java:1238)
+	at com.liferay.portal.servlet.MainServlet.init(MainServlet.java:206)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+10:03:38,203 WARN  [localhost-startStop-1][VerifyAuditedModel:252] Unable to verify model PollsVote
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '14861-10879' for key 'IX_1BBFD4D3'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:248)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:316)
+	at com.liferay.portal.verify.VerifyAuditedModel.doVerify(VerifyAuditedModel.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:66)
+	at com.liferay.portal.verify.VerifyProcessSuite.doVerify(VerifyProcessSuite.java:38)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:111)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:76)
+	at com.liferay.portal.verify.VerifyProcessUtil.verifyProcess(VerifyProcessUtil.java:46)
+	at com.liferay.portal.events.StartupHelper.verifyProcess(StartupHelper.java:146)
+	at com.liferay.portal.events.StartupHelperUtil.verifyProcess(StartupHelperUtil.java:67)
+	at com.liferay.portal.tools.DBUpgrader.verify(DBUpgrader.java:240)
+	at com.liferay.portal.events.StartupAction.doRun(StartupAction.java:206)
+	at com.liferay.portal.events.StartupAction.run(StartupAction.java:68)
+	at com.liferay.portal.servlet.MainServlet.processStartupEvents(MainServlet.java:1238)
+	at com.liferay.portal.servlet.MainServlet.init(MainServlet.java:206)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+10:03:38,221 WARN  [localhost-startStop-1][VerifyAuditedModel:252] Unable to verify model PollsVote
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '14869-10879' for key 'IX_1BBFD4D3'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:248)
+	at com.liferay.portal.verify.VerifyAuditedModel.verifyModel(VerifyAuditedModel.java:316)
+	at com.liferay.portal.verify.VerifyAuditedModel.doVerify(VerifyAuditedModel.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:66)
+	at com.liferay.portal.verify.VerifyProcessSuite.doVerify(VerifyProcessSuite.java:38)
+	at com.liferay.portal.verify.VerifyProcess.verify(VerifyProcess.java:58)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:111)
+	at com.liferay.portal.verify.VerifyProcessUtil._verifyProcess(VerifyProcessUtil.java:76)
+	at com.liferay.portal.verify.VerifyProcessUtil.verifyProcess(VerifyProcessUtil.java:46)
+	at com.liferay.portal.events.StartupHelper.verifyProcess(StartupHelper.java:146)
+	at com.liferay.portal.events.StartupHelperUtil.verifyProcess(StartupHelperUtil.java:67)
+	at com.liferay.portal.tools.DBUpgrader.verify(DBUpgrader.java:240)
+	at com.liferay.portal.events.StartupAction.doRun(StartupAction.java:206)
+	at com.liferay.portal.events.StartupAction.run(StartupAction.java:68)
+	at com.liferay.portal.servlet.MainServlet.processStartupEvents(MainServlet.java:1238)
+	at com.liferay.portal.servlet.MainServlet.init(MainServlet.java:206)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+10:03:52,981 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyBlogs
+10:03:52,992 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyBookmarks
+10:03:53,534 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDocumentLibrary
+10:05:39,505 WARN  [localhost-startStop-1][VerifyDocumentLibrary:439] Unable to update asset for file entry 84918: No User exists with the primary key 20538
+10:05:43,192 WARN  [localhost-startStop-1][VerifyDocumentLibrary:469] Unable to update asset for folder 84915: No User exists with the primary key 20538
+10:05:43,199 WARN  [localhost-startStop-1][VerifyDocumentLibrary:469] Unable to update asset for folder 84916: No User exists with the primary key 20538
+10:05:43,204 WARN  [localhost-startStop-1][VerifyDocumentLibrary:469] Unable to update asset for folder 84917: No User exists with the primary key 20538
+10:05:47,561 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDynamicDataMapping
+10:05:48,112 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyGroupId
+10:06:02,033 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyJournal
+10:06:40,041 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyLayout
+10:06:40,194 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyMessageBoards
+10:06:44,133 WARN  [localhost-startStop-1][VerifyMessageBoards:108] Unable to update asset for thread 16935: No Group exists with the primary key 16527
+10:06:44,135 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyOrganization
+10:06:44,230 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyResourcePermissions
+10:06:44,488 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.asset.model.AssetTag
+10:06:44,618 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.asset.model.AssetTag
+10:06:45,198 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:45,604 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:45,811 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:45,997 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:46,175 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:46,355 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:46,478 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:46,645 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:46,832 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:46,964 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:47,107 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFileEntry
+10:06:49,230 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.documentlibrary.model.DLFolder
+10:06:50,509 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:50,528 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:50,671 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:50,674 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:50,676 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:50,807 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:50,835 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:51,586 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:51,591 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:51,655 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:51,786 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:52,355 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,160 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,164 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,165 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,167 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,169 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,171 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,175 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,177 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,180 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,187 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,702 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:53,867 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,213 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,216 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,730 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,736 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,738 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,740 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,743 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,744 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,747 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,856 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,859 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:56,863 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:57,196 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:57,199 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:57,488 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:59,489 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:06:59,493 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.journal.model.JournalArticle
+10:07:00,187 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:00,862 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:01,175 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:01,326 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:01,748 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:02,015 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:02,772 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:03,924 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:04,297 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBCategory
+10:07:04,537 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:04,788 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:05,412 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:05,554 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:05,707 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:06,927 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:08,366 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:09,527 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:10,765 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:11,871 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:13,172 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:14,237 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:15,282 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:16,325 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:17,316 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:18,303 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:19,364 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:20,580 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:21,768 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.messageboards.model.MBMessage
+10:07:22,973 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.User
+10:07:23,427 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.User
+10:07:23,557 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.User
+10:07:24,088 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.wiki.model.WikiPage
+10:07:24,092 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.wiki.model.WikiPage
+10:07:24,094 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.wiki.model.WikiPage
+10:07:24,613 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portlet.wiki.model.WikiPage
+10:07:25,362 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:25,677 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:25,896 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:25,986 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:26,315 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:26,488 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:26,907 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:27,557 INFO  [localhost-startStop-1][VerifyResourcePermissions:155] Processed 100 resource permissions for com.liferay.portal.model.Layout
+10:07:27,762 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyUser
+10:07:27,773 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyWiki
+10:07:27,919 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyWorkflow
+10:07:28,103 INFO  [localhost-startStop-1][BaseDB:75] Adding indexes
+10:07:28,106 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_E6DFAB84 on DDMTemplate (groupId, classNameId, templateKey);
+10:07:28,112 WARN  [localhost-startStop-1][BaseDB:106] BLOB/TEXT column 'templateKey' used in key specification without a key length: create unique index IX_E6DFAB84 on DDMTemplate (groupId, classNameId, templateKey);
+10:07:28,114 INFO  [localhost-startStop-1][BaseDB:98] create index IX_CAE41A28 on DDMTemplate (templateKey);
+10:07:28,123 WARN  [localhost-startStop-1][BaseDB:106] BLOB/TEXT column 'templateKey' used in key specification without a key length: create index IX_CAE41A28 on DDMTemplate (templateKey);
+10:07:28,125 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_33781904 on MBThreadFlag (userId, threadId);
+10:07:28,173 WARN  [localhost-startStop-1][BaseDB:106] Duplicate entry '49157-45810' for key 'IX_33781904': create unique index IX_33781904 on MBThreadFlag (userId, threadId);
+10:07:28,176 INFO  [localhost-startStop-1][BaseDB:98] create unique index IX_AEEA209C on ResourceBlock (companyId, groupId, name, permissionsHash);
+10:07:28,221 WARN  [localhost-startStop-1][BaseDB:106] Duplicate entry '10132-24762-com.liferay.portlet.bookmarks.model.BookmarksEntry-8' for key 'IX_AEEA209C': create unique index IX_AEEA209C on ResourceBlock (companyId, groupId, name, permissionsHash);
+10:07:28,461 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+10:07:28,495 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+10:08:15,235 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy
+10:08:20,800 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:23,540 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:23,713 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:23,741 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:23,769 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:23,916 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:23,922 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,050 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,056 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,119 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,126 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,180 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,186 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,296 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,450 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,454 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,464 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,546 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,556 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,603 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,612 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:24,707 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,045 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,202 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,204 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,213 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,266 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,272 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,347 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,353 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,513 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,519 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,623 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,789 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,792 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,804 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,914 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:25,920 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:26,011 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:26,170 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:26,172 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:26,179 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:26,311 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing politaktiv-empty-theme-6.2.0.2.war
+10:08:26,359 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeAutoDeployListener:51] Copying themes for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-empty-theme-6.2.0.2.war
+10:08:26,400 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying politaktiv-empty-theme-6.2.0.2.war
+10:08:26,416 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+10:08:26,428 WARN  [localhost-startStop-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktiv_WAR_politaktivtheme. Returning the default theme.
+  Expanding: /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-empty-theme-6.2.0.2.war into /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408/WEB-INF
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408/WEB-INF/classes
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408/WEB-INF/classes
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408/WEB-INF
+10:08:28,455 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2380] Modifying Servlet 2.4 /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408/WEB-INF/web.xml
+  Copying 1109 files to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-empty-theme
+  Copied 81 empty directories to 4 empty directories under /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-empty-theme
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-empty-theme
+  Deleting directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100826408
+10:08:30,683 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeAutoDeployListener:57] Themes for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-empty-theme-6.2.0.2.war copied successfully. Deployment will start in a few seconds.
+10:08:30,688 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing politaktiv-layouts-6.2.0.2.war
+10:08:30,706 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][LayoutTemplateAutoDeployListener:52] Copying layout templates for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-layouts-6.2.0.2.war
+10:08:30,755 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying politaktiv-layouts-6.2.0.2.war
+  Expanding: /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-layouts-6.2.0.2.war into /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830756
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830756/WEB-INF/classes
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830756/WEB-INF/classes
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830756/WEB-INF
+10:08:30,797 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2380] Modifying Servlet 2.4 /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830756/WEB-INF/web.xml
+  Copying 33 files to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-layouts
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-layouts
+  Deleting directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830756
+10:08:30,839 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][LayoutTemplateAutoDeployListener:58] Layout templates for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-layouts-6.2.0.2.war copied successfully. Deployment will start in a few seconds.
+10:08:30,845 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing politaktiv-theme-6.2.0.9.war
+10:08:30,868 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeAutoDeployListener:51] Copying themes for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-theme-6.2.0.9.war
+10:08:30,891 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying politaktiv-theme-6.2.0.9.war
+  Expanding: /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-theme-6.2.0.9.war into /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892
+Dez 22, 2013 10:08:31 AM org.apache.catalina.core.ApplicationContext log
+Information: Initializing Spring FrameworkServlet 'Remoting Servlet'
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892/WEB-INF
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892/WEB-INF/classes
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892/WEB-INF/classes
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892/WEB-INF
+10:08:31,790 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2380] Modifying Servlet 2.4 /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892/WEB-INF/web.xml
+  Copying 1109 files to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-theme
+  Copied 81 empty directories to 4 empty directories under /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-theme
+  Copying 1 file to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-theme
+  Deleting directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/20131222100830892
+10:08:33,768 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeAutoDeployListener:57] Themes for /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/deploy/politaktiv-theme-6.2.0.9.war copied successfully. Deployment will start in a few seconds.
+Dez 22, 2013 10:08:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/notifications-portlet
+10:08:37,063 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin notifications-portlet requires marketplace-portlet
+10:08:38,420 INFO  [localhost-startStop-1][HotDeployImpl:249] Queueing notifications-portlet for deploy because it is missing marketplace-portlet
+Dez 22, 2013 10:08:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/opensocial-portlet
+10:08:44,046 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin opensocial-portlet requires marketplace-portlet
+10:08:44,048 INFO  [localhost-startStop-1][HotDeployImpl:249] Queueing opensocial-portlet for deploy because it is missing marketplace-portlet
+Dez 22, 2013 10:08:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/welcome-theme
+10:08:46,462 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+10:08:46,464 INFO  [localhost-startStop-1][HotDeployImpl:249] Queueing welcome-theme for deploy because it is missing marketplace-portlet, resources-importer-web
+Dez 22, 2013 10:08:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/web-form-portlet
+10:08:48,222 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin web-form-portlet requires marketplace-portlet
+10:08:48,223 INFO  [localhost-startStop-1][HotDeployImpl:249] Queueing web-form-portlet for deploy because it is missing marketplace-portlet
+Dez 22, 2013 10:08:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/marketplace-portlet
+10:08:50,093 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying marketplace-portlet from queue
+10:08:50,097 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/3-marketplace-portlet/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/3-marketplace-portlet/WEB-INF/classes/service.properties
+10:08:50,443 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:313] Running Marketplace SQL scripts
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/3-marketplace-portlet/WEB-INF/classes/portlet.properties
+10:08:50,920 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for marketplace-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/3-marketplace-portlet/WEB-INF/classes/portal.properties
+10:08:51,010 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.marketplace.hook.upgrade.UpgradeProcess_1_0_0
+10:08:51,013 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.marketplace.hook.upgrade.v1_0_0.UpgradeExpando
+10:08:51,145 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for marketplace-portlet is available for use
+10:08:51,147 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for marketplace-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/3-marketplace-portlet/WEB-INF/classes/portlet.properties
+10:08:51,707 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 3 portlets for marketplace-portlet are available for use
+10:08:51,710 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying notifications-portlet from queue
+10:08:51,711 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/0-notifications-portlet/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/0-notifications-portlet/WEB-INF/classes/portlet.properties
+10:08:52,032 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for notifications-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/0-notifications-portlet/WEB-INF/classes/portal.properties
+10:08:52,046 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for notifications-portlet is available for use
+10:08:52,048 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for notifications-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/0-notifications-portlet/WEB-INF/classes/portlet.properties
+10:08:52,351 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 2 portlets for notifications-portlet are available for use
+10:08:52,352 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying opensocial-portlet from queue
+10:08:52,353 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/1-opensocial-portlet/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/1-opensocial-portlet/WEB-INF/classes/service.properties
+10:08:52,528 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:322] Upgrading OpenSocial database to build number 4
+10:08:52,530 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:351] Upgrading database with indexes.sql
+10:08:52,539 WARN  [localhost-startStop-1][BaseDB:457] BLOB/TEXT column 'url' used in key specification without a key length: create unique index IX_A6A89EB1 on OpenSocial_Gadget (companyId, url);_ [Sanitized]
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/1-opensocial-portlet/WEB-INF/classes/portlet.properties
+10:08:53,966 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for opensocial-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/1-opensocial-portlet/WEB-INF/classes/portal.properties
+10:08:57,158 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for opensocial-portlet is available for use
+10:08:57,161 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for opensocial-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/1-opensocial-portlet/WEB-INF/classes/portlet.properties
+10:08:57,597 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 4 portlets for opensocial-portlet are available for use
+10:08:57,598 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing resources-importer-web
+10:08:57,598 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing 
+10:08:57,599 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying web-form-portlet from queue
+10:08:57,599 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/2-web-form-portlet/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/2-web-form-portlet/WEB-INF/classes/portlet.properties
+10:08:57,944 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for web-form-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/2-web-form-portlet/WEB-INF/classes/portlet.properties
+10:08:58,112 INFO  [localhost-startStop-1][PortletHotDeployListener:490] 1 portlet for web-form-portlet is available for use
+10:08:58,113 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing resources-importer-web
+10:08:58,115 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing resources-importer-web
+10:08:58,115 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing resources-importer-web
+Dez 22, 2013 10:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/sync-web
+10:08:59,585 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin sync-web requires marketplace-portlet
+10:08:59,587 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying sync-web from queue
+10:08:59,587 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for sync-web
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/4-sync-web/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/4-sync-web/WEB-INF/classes/service.properties
+10:08:59,760 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:313] Running Sync SQL scripts
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/4-sync-web/WEB-INF/classes/portlet.properties
+10:08:59,981 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing resources-importer-web
+Dez 22, 2013 10:09:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/calendar-portlet
+10:09:03,782 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin calendar-portlet requires marketplace-portlet
+10:09:03,783 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying calendar-portlet from queue
+10:09:03,784 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/5-calendar-portlet/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/5-calendar-portlet/WEB-INF/classes/service.properties
+10:09:04,127 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:313] Running Calendar SQL scripts
+10:09:05,245 WARN  [localhost-startStop-1][BaseDB:457] BLOB/TEXT column 'name' used in key specification without a key length: create index IX_2C5184D4 on CalendarResource (companyId, name, active_);_ [Sanitized]
+10:09:05,419 WARN  [localhost-startStop-1][BaseDB:457] BLOB/TEXT column 'name' used in key specification without a key length: create index IX_B9EA8C92 on CalendarResource (groupId, name, active_);_ [Sanitized]
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/5-calendar-portlet/WEB-INF/classes/portlet.properties
+10:09:05,835 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for calendar-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/5-calendar-portlet/WEB-INF/classes/portal.properties
+10:09:05,925 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for calendar-portlet is available for use
+10:09:05,927 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for calendar-portlet
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/5-calendar-portlet/WEB-INF/classes/portlet.properties
+10:09:06,262 ERROR [liferay/scheduler_dispatch-1][PortletBeanLocatorUtil:42] BeanLocator is null for servlet context calendar-portlet
+10:09:06,267 ERROR [liferay/scheduler_dispatch-1][ParallelDestination:72] Unable to process message {destinationName=liferay/scheduler_dispatch, response=null, responseDestinationName=null, responseId=null, payload=null, values={JOB_NAME=com.liferay.calendar.messaging.CheckBookingsMessageListener, EXCEPTIONS_MAX_SIZE=0, GROUP_NAME=com.liferay.calendar.messaging.CheckBookingsMessageListener, DESTINATION_NAME=liferay/scheduler_dispatch, PORTLET_ID=1_WAR_calendarportlet, JOB_STATE=com.liferay.portal.kernel.scheduler.JobState@6acdb4f5, companyId=0, MESSAGE_LISTENER_CLASS_NAME=com.liferay.calendar.messaging.CheckBookingsMessageListener, RECEIVER_KEY=com.liferay.calendar.messaging.CheckBookingsMessageListener.com.liferay.calendar.messaging.CheckBookingsMessageListener, MESSAGE_LISTENER_UUID=abf369c5-8b01-4e0e-b0d6-d6bb490d6103}}
+com.liferay.portal.kernel.messaging.MessageListenerException: com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context calendar-portlet
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at $Proxy426.receive(Unknown Source)
+	at com.liferay.portal.kernel.scheduler.messaging.SchedulerEventMessageListenerWrapper.receive(SchedulerEventMessageListenerWrapper.java:76)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:72)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:69)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:682)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:593)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context calendar-portlet
+	at com.liferay.portal.kernel.bean.PortletBeanLocatorUtil.locate(PortletBeanLocatorUtil.java:46)
+	at com.liferay.calendar.service.CalendarBookingLocalServiceUtil.getService(CalendarBookingLocalServiceUtil.java:633)
+	at com.liferay.calendar.service.CalendarBookingLocalServiceUtil.checkCalendarBookings(CalendarBookingLocalServiceUtil.java:364)
+	at com.liferay.calendar.messaging.CheckBookingsMessageListener.doReceive(CheckBookingsMessageListener.java:29)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:26)
+	... 12 more
+10:09:06,436 INFO  [localhost-startStop-1][PortletHotDeployListener:490] 1 portlet for calendar-portlet is available for use
+10:09:06,437 INFO  [localhost-startStop-1][HotDeployImpl:267] welcome-theme is still in queue because it is missing resources-importer-web
+Dez 22, 2013 10:09:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/resources-importer-web
+10:09:09,008 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin resources-importer-web requires marketplace-portlet
+10:09:09,009 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying resources-importer-web from queue
+10:09:09,010 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+10:09:09,225 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying welcome-theme from queue
+10:09:09,226 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for welcome-theme
+10:09:09,596 INFO  [localhost-startStop-1][ThemeHotDeployListener:97] Registering themes for welcome-theme
+10:09:12,153 INFO  [localhost-startStop-1][ThemeHotDeployListener:110] 1 theme for welcome-theme is available for use
+Dez 22, 2013 10:09:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/kaleo-web
+10:09:14,987 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin kaleo-web requires marketplace-portlet
+10:09:14,989 INFO  [localhost-startStop-1][HotDeployImpl:195] Deploying kaleo-web from queue
+10:09:14,989 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/7-kaleo-web/WEB-INF/classes/portlet.properties
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/7-kaleo-web/WEB-INF/classes/service.properties
+10:09:15,196 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:322] Upgrading Kaleo database to build number 6
+10:09:15,199 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:329] Upgrading database with tables.sql
+10:09:15,300 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoAction' already exists: create table KaleoAction (kaleoActionId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoClassName varchar(200) null,kaleoClassPK bigint,kaleoDefinitionId bigint,kaleoNodeName varchar(200) null,name varchar(200) null,description longtext null,executionType varchar(20) null,script longtext null,scriptLanguage varchar(75) null,scriptRequiredContexts longtext null,priority integer) engine InnoDB;_ [Sanitized]
+10:09:15,315 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoCondition' already exists: create table KaleoCondition (kaleoConditionId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoNodeId bigint,script longtext null,scriptLanguage varchar(75) null,scriptRequiredContexts varchar(75) null) engine InnoDB;_ [Sanitized]
+10:09:15,357 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoDefinition' already exists: create table KaleoDefinition (kaleoDefinitionId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,name varchar(200) null,title longtext null,description longtext null,content longtext null,version integer,active_ tinyint,startKaleoNodeId bigint) engine InnoDB;_ [Sanitized]
+10:09:15,365 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoInstance' already exists: create table KaleoInstance (kaleoInstanceId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoDefinitionName varchar(200) null,kaleoDefinitionVersion integer,rootKaleoInstanceTokenId bigint,className varchar(200) null,classPK bigint,completed tinyint,completionDate datetime null,workflowContext longtext null) engine InnoDB;_ [Sanitized]
+10:09:15,372 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoInstanceToken' already exists: create table KaleoInstanceToken (kaleoInstanceTokenId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoInstanceId bigint,parentKaleoInstanceTokenId bigint,currentKaleoNodeId bigint,currentKaleoNodeName varchar(200) null,className varchar(200) null,classPK bigint,completed tinyint,completionDate datetime null) engine InnoDB;_ [Sanitized]
+10:09:15,379 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoLog' already exists: create table KaleoLog (kaleoLogId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoClassName varchar(200) null,kaleoClassPK bigint,kaleoDefinitionId bigint,kaleoInstanceId bigint,kaleoInstanceTokenId bigint,kaleoTaskInstanceTokenId bigint,kaleoNodeName varchar(200) null,terminalKaleoNode tinyint,kaleoActionId bigint,kaleoActionName varchar(200) null,kaleoActionDescription longtext null,previousKaleoNodeId bigint,previousKaleoNodeName varchar(200) null,previousAssigneeClassName varchar(200) null,previousAssigneeClassPK bigint,currentAssigneeClassName varchar(200) null,currentAssigneeClassPK bigint,type_ varchar(50) null,comment_ longtext null,startDate datetime null,endDate datetime null,duration bigint,workflowContext longtext null) engine InnoDB;_ [Sanitized]
+10:09:15,385 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoNode' already exists: create table KaleoNode (kaleoNodeId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,name varchar(200) null,metadata longtext null,description longtext null,type_ varchar(20) null,initial_ tinyint,terminal tinyint) engine InnoDB;_ [Sanitized]
+10:09:15,391 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoNotification' already exists: create table KaleoNotification (kaleoNotificationId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoClassName varchar(200) null,kaleoClassPK bigint,kaleoDefinitionId bigint,kaleoNodeName varchar(200) null,name varchar(200) null,description longtext null,executionType varchar(20) null,template longtext null,templateLanguage varchar(75) null,notificationTypes varchar(25) null) engine InnoDB;_ [Sanitized]
+10:09:15,397 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoNotificationRecipient' already exists: create table KaleoNotificationRecipient (kaleoNotificationRecipientId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoNotificationId bigint,recipientClassName varchar(200) null,recipientClassPK bigint,recipientRoleType integer,address varchar(255) null) engine InnoDB;_ [Sanitized]
+10:09:15,404 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTask' already exists: create table KaleoTask (kaleoTaskId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoNodeId bigint,name varchar(200) null,description longtext null) engine InnoDB;_ [Sanitized]
+10:09:15,411 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTaskAssignment' already exists: create table KaleoTaskAssignment (kaleoTaskAssignmentId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoClassName varchar(200) null,kaleoClassPK bigint,kaleoDefinitionId bigint,kaleoNodeId bigint,assigneeClassName varchar(200) null,assigneeClassPK bigint,assigneeActionId varchar(75) null,assigneeScript longtext null,assigneeScriptLanguage varchar(75) null,assigneeScriptRequiredContexts varchar(75) null) engine InnoDB;_ [Sanitized]
+10:09:15,417 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTaskAssignmentInstance' already exists: create table KaleoTaskAssignmentInstance (kaleoTaskAssignmentInstanceId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoInstanceId bigint,kaleoInstanceTokenId bigint,kaleoTaskInstanceTokenId bigint,kaleoTaskId bigint,kaleoTaskName varchar(200) null,assigneeClassName varchar(200) null,assigneeClassPK bigint,completed tinyint,completionDate datetime null) engine InnoDB;_ [Sanitized]
+10:09:15,425 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTaskInstanceToken' already exists: create table KaleoTaskInstanceToken (kaleoTaskInstanceTokenId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoInstanceId bigint,kaleoInstanceTokenId bigint,kaleoTaskId bigint,kaleoTaskName varchar(200) null,className varchar(200) null,classPK bigint,completionUserId bigint,completed tinyint,completionDate datetime null,dueDate datetime null,workflowContext longtext null) engine InnoDB;_ [Sanitized]
+10:09:15,433 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTimer' already exists: create table KaleoTimer (kaleoTimerId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoClassName varchar(200) null,kaleoClassPK bigint,kaleoDefinitionId bigint,name varchar(75) null,blocking tinyint,description longtext null,duration double,scale varchar(75) null,recurrenceDuration double,recurrenceScale varchar(75) null) engine InnoDB;_ [Sanitized]
+10:09:15,441 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTimerInstanceToken' already exists: create table KaleoTimerInstanceToken (kaleoTimerInstanceTokenId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoClassName varchar(200) null,kaleoClassPK bigint,kaleoDefinitionId bigint,kaleoInstanceId bigint,kaleoInstanceTokenId bigint,kaleoTaskInstanceTokenId bigint,kaleoTimerId bigint,kaleoTimerName varchar(200) null,blocking tinyint,completionUserId bigint,completed tinyint,completionDate datetime null,workflowContext longtext null) engine InnoDB;_ [Sanitized]
+10:09:15,446 WARN  [localhost-startStop-1][BaseDB:457] Table 'KaleoTransition' already exists: create table KaleoTransition (kaleoTransitionId bigint not null primary key,groupId bigint,companyId bigint,userId bigint,userName varchar(200) null,createDate datetime null,modifiedDate datetime null,kaleoDefinitionId bigint,kaleoNodeId bigint,name varchar(200) null,description longtext null,sourceKaleoNodeId bigint,sourceKaleoNodeName varchar(200) null,targetKaleoNodeId bigint,targetKaleoNodeName varchar(200) null,defaultTransition tinyint) engine InnoDB;_ [Sanitized]
+10:09:15,454 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:377] No optional file META-INF/portlet-model-hints-ext.xml found
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/7-kaleo-web/WEB-INF/classes/service.properties
+10:09:15,487 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:422] Instantiated com.liferay.portal.workflow.kaleo.model.upgrade.KaleoActionUpgradeTableListener
+10:09:15,504 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoAction to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoAction-1387706955504
+10:09:15,540 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoAction to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoAction-1387706955504 in 36 ms
+10:09:15,603 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoCondition to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoCondition-1387706955603
+10:09:15,607 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoCondition to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoCondition-1387706955603 in 4 ms
+10:09:15,643 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoDefinition to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoDefinition-1387706955643
+10:09:15,650 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoDefinition to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoDefinition-1387706955643 in 6 ms
+10:09:15,697 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoInstance to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoInstance-1387706955697
+10:09:15,700 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoInstance to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoInstance-1387706955697 in 3 ms
+10:09:15,730 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoInstanceToken to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoInstanceToken-1387706955730
+10:09:15,732 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoInstanceToken to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoInstanceToken-1387706955730 in 2 ms
+10:09:15,771 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:422] Instantiated com.liferay.portal.workflow.kaleo.model.upgrade.KaleoLogUpgradeTableListener
+10:09:15,772 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoLog to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoLog-1387706955772
+10:09:15,774 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoLog to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoLog-1387706955772 in 2 ms
+10:09:15,806 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoNode to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoNode-1387706955806
+10:09:15,817 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoNode to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoNode-1387706955806 in 11 ms
+10:09:15,874 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:422] Instantiated com.liferay.portal.workflow.kaleo.model.upgrade.KaleoNotificationUpgradeTableListener
+10:09:15,875 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoNotification to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoNotification-1387706955875
+10:09:15,888 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoNotification to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoNotification-1387706955875 in 13 ms
+10:09:15,952 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoNotificationRecipient to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoNotificationRecipient-1387706955952
+10:09:15,954 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoNotificationRecipient to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoNotificationRecipient-1387706955952 in 2 ms
+10:09:15,989 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTask to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTask-1387706955989
+10:09:16,001 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTask to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTask-1387706955989 in 12 ms
+10:09:16,041 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:422] Instantiated com.liferay.portal.workflow.kaleo.model.upgrade.KaleoTaskAssignmentUpgradeTableListener
+10:09:16,043 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTaskAssignment to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTaskAssignment-1387706956043
+10:09:16,064 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTaskAssignment to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTaskAssignment-1387706956043 in 21 ms
+10:09:16,122 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTaskAssignmentInstance to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTaskAssignmentInstance-1387706956122
+10:09:16,125 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTaskAssignmentInstance to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTaskAssignmentInstance-1387706956122 in 3 ms
+10:09:16,152 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTaskInstanceToken to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTaskInstanceToken-1387706956151
+10:09:16,154 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTaskInstanceToken to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTaskInstanceToken-1387706956151 in 2 ms
+10:09:16,179 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTimer to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTimer-1387706956179
+10:09:16,182 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTimer to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTimer-1387706956179 in 3 ms
+10:09:16,215 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTimerInstanceToken to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTimerInstanceToken-1387706956215
+10:09:16,217 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTimerInstanceToken to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTimerInstanceToken-1387706956215 in 2 ms
+10:09:16,242 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoTransition to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTransition-1387706956242
+10:09:16,257 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoTransition to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoTransition-1387706956242 in 15 ms
+10:09:16,290 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:351] Upgrading database with indexes.sql
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/7-kaleo-web/WEB-INF/classes/portlet.properties
+10:09:18,016 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for kaleo-web
+Loading file:/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/7-kaleo-web/WEB-INF/classes/portal.properties
+10:09:18,026 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.UpgradeProcess_1_1_0
+10:09:18,028 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_1_0.UpgradeWorkflowContext
+10:09:18,092 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.UpgradeProcess_1_2_0
+10:09:18,095 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_2_0.UpgradeKaleoLog
+10:09:18,126 INFO  [localhost-startStop-1][Table:155] Starting backup of KaleoLog to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoLog-1387706958126
+10:09:18,129 INFO  [localhost-startStop-1][Table:189] Finished backup of KaleoLog to /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/temp/temp-db-KaleoLog-1387706958126 in 3 ms
+10:09:18,318 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_2_0.UpgradeKaleoNotificationRecipient
+10:09:18,352 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for kaleo-web is available for use
+Dez 22, 2013 10:09:18 AM org.apache.coyote.AbstractProtocol start
+Information: Starting ProtocolHandler ["http-bio-8080"]
+Dez 22, 2013 10:09:18 AM org.apache.coyote.AbstractProtocol start
+Information: Starting ProtocolHandler ["ajp-bio-8009"]
+Dez 22, 2013 10:09:18 AM org.apache.catalina.startup.Catalina start
+Information: Server startup in 608571 ms
+10:09:19,376 WARN  [http-bio-8080-exec-1][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:20,139 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:20,171 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:20,172 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+Dez 22, 2013 10:09:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-layouts
+10:09:30,220 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:30,275 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:30,659 INFO  [localhost-startStop-2][HotDeployEvent:130] Plugin politaktiv-layouts requires marketplace-portlet
+10:09:30,669 INFO  [localhost-startStop-2][HotDeployImpl:195] Deploying politaktiv-layouts from queue
+10:09:30,672 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for politaktiv-layouts
+10:09:30,783 INFO  [localhost-startStop-2][LayoutTemplateHotDeployListener:94] Registering layout templates for politaktiv-layouts
+10:09:30,835 INFO  [localhost-startStop-2][LayoutTemplateHotDeployListener:114] 6 layout templates for politaktiv-layouts are available for use
+Dez 22, 2013 10:09:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-theme
+10:09:33,351 INFO  [localhost-startStop-2][HotDeployEvent:130] Plugin politaktiv-theme requires marketplace-portlet
+10:09:33,353 INFO  [localhost-startStop-2][HotDeployImpl:195] Deploying politaktiv-theme from queue
+10:09:33,354 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for politaktiv-theme
+10:09:34,004 INFO  [localhost-startStop-2][ThemeHotDeployListener:97] Registering themes for politaktiv-theme
+10:09:36,896 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,902 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,915 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,946 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,964 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,969 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,975 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,980 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:36,985 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,116 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,122 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,129 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,132 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,135 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,138 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,141 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:37,146 WARN  [http-bio-8080-exec-2][ThemeLocalServiceImpl:151] No theme found for specified theme id politaktivempty_WAR_politaktivemptytheme. Returning the default theme.
+10:09:38,147 INFO  [localhost-startStop-2][ThemeHotDeployListener:110] 1 theme for politaktiv-theme is available for use
+Dez 22, 2013 10:09:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+Information: Deploying web application directory /home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps/politaktiv-empty-theme
+10:09:40,646 INFO  [localhost-startStop-2][HotDeployEvent:130] Plugin politaktiv-empty-theme requires marketplace-portlet
+10:09:40,647 INFO  [localhost-startStop-2][HotDeployImpl:195] Deploying politaktiv-empty-theme from queue
+10:09:40,648 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for politaktiv-empty-theme
+10:09:41,247 INFO  [localhost-startStop-2][ThemeHotDeployListener:97] Registering themes for politaktiv-empty-theme
+10:09:44,924 INFO  [localhost-startStop-2][ThemeHotDeployListener:110] 1 theme for politaktiv-empty-theme is available for use
+10:09:52,402 ERROR [http-bio-8080-exec-2][velocity:151] #parse(): cannot find template '_SERVLET_CONTEXT_/wap/themes/mobile/templates/init_custom.vm', called at _SERVLET_CONTEXT_/html/themes/_unstyled/templates/init.vm[line 390, column 1]
+10:09:52,407 ERROR [http-bio-8080-exec-2][velocity:151] Exception rendering #parse(_SERVLET_CONTEXT_/html/themes/_unstyled/templates/init.vm) at _SERVLET_CONTEXT_/wap/themes/mobile/templates/portal_normal.vm[line 4, column 1]
+Dez 22, 2013 10:09:52 AM org.apache.catalina.core.ApplicationDispatcher invoke
+Schwerwiegend: Servlet.service() for servlet jsp threw exception
+org.apache.velocity.exception.ResourceNotFoundException: Unable to find Velocity template with ID _SERVLET_CONTEXT_/wap/themes/mobile/templates/init_custom.vm
+	at com.liferay.portal.velocity.LiferayResourceManager.doGetResource(LiferayResourceManager.java:164)
+	at com.liferay.portal.velocity.LiferayResourceManager.getResource(LiferayResourceManager.java:107)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1400)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:198)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:175)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:336)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:263)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:175)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:336)
+	at org.apache.velocity.Template.merge(Template.java:328)
+	at org.apache.velocity.Template.merge(Template.java:235)
+	at com.liferay.portal.velocity.VelocityTemplate.processTemplate(VelocityTemplate.java:112)
+	at com.liferay.portal.template.AbstractTemplate.processTemplate(AbstractTemplate.java:108)
+	at com.liferay.taglib.util.ThemeUtil.doIncludeVM(ThemeUtil.java:511)
+	at com.liferay.taglib.util.ThemeUtil.doDispatch(ThemeUtil.java:177)
+	at com.liferay.taglib.util.ThemeUtil.includeVM(ThemeUtil.java:133)
+	at com.liferay.taglib.util.ThemeUtil.include(ThemeUtil.java:99)
+	at com.liferay.taglib.theme.IncludeTag.doEndTag(IncludeTag.java:34)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspx_meth_liferay_002dtheme_005finclude_005f1(portal_jsp.java:572)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspService(portal_jsp.java:515)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.liferay.portal.struts.StrutsUtil.forward(StrutsUtil.java:78)
+	at com.liferay.portal.struts.PortalRequestProcessor.doForward(PortalRequestProcessor.java:279)
+	at org.apache.struts.tiles.TilesRequestProcessor.processTilesDefinition(TilesRequestProcessor.java:239)
+	at org.apache.struts.tiles.TilesRequestProcessor.processForwardConfig(TilesRequestProcessor.java:302)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:241)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:173)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:546)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:523)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:293)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.liferay.portal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:160)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:359)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:293)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:244)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.sso.ntlm.NtlmPostFilter.processFilter(NtlmPostFilter.java:83)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:226)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+10:09:53,368 ERROR [http-bio-8080-exec-2][error_jsp:503] User ID null
+10:09:53,372 ERROR [http-bio-8080-exec-2][error_jsp:504] Current URL /web/politaktiv/home
+10:09:53,374 ERROR [http-bio-8080-exec-2][error_jsp:505] Referer null
+10:09:53,375 ERROR [http-bio-8080-exec-2][error_jsp:506] Remote address 127.0.0.1
+10:09:53,377 ERROR [http-bio-8080-exec-2][error_jsp:508] javax.servlet.ServletException: javax.servlet.jsp.JspException: com.liferay.portal.kernel.template.TemplateException: Unable to process template _SERVLET_CONTEXT_/wap/themes/mobile/templates/portal_normal.vm
+javax.servlet.ServletException: javax.servlet.jsp.JspException: com.liferay.portal.kernel.template.TemplateException: Unable to process template _SERVLET_CONTEXT_/wap/themes/mobile/templates/portal_normal.vm
+	at org.apache.jasper.runtime.PageContextImpl.doHandlePageException(PageContextImpl.java:908)
+	at org.apache.jasper.runtime.PageContextImpl.handlePageException(PageContextImpl.java:841)
+	at com.liferay.portal.kernel.servlet.PageContextWrapper.handlePageException(PageContextWrapper.java:161)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspService(portal_jsp.java:534)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.liferay.portal.struts.StrutsUtil.forward(StrutsUtil.java:78)
+	at com.liferay.portal.struts.PortalRequestProcessor.doForward(PortalRequestProcessor.java:279)
+	at org.apache.struts.tiles.TilesRequestProcessor.processTilesDefinition(TilesRequestProcessor.java:239)
+	at org.apache.struts.tiles.TilesRequestProcessor.processForwardConfig(TilesRequestProcessor.java:302)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:241)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:173)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:546)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:523)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:293)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.liferay.portal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:160)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:359)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:293)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:244)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.sso.ntlm.NtlmPostFilter.processFilter(NtlmPostFilter.java:83)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:226)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: com.liferay.portal.kernel.template.TemplateException: Unable to process template _SERVLET_CONTEXT_/wap/themes/mobile/templates/portal_normal.vm
+	at com.liferay.portal.template.AbstractTemplate.processTemplate(AbstractTemplate.java:113)
+	at com.liferay.taglib.util.ThemeUtil.doIncludeVM(ThemeUtil.java:511)
+	at com.liferay.taglib.util.ThemeUtil.doDispatch(ThemeUtil.java:177)
+	at com.liferay.taglib.util.ThemeUtil.includeVM(ThemeUtil.java:133)
+	at com.liferay.taglib.util.ThemeUtil.include(ThemeUtil.java:99)
+	at com.liferay.taglib.theme.IncludeTag.doEndTag(IncludeTag.java:34)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspx_meth_liferay_002dtheme_005finclude_005f1(portal_jsp.java:572)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspService(portal_jsp.java:515)
+	... 126 more
+Caused by: org.apache.velocity.exception.ResourceNotFoundException: Unable to find Velocity template with ID _SERVLET_CONTEXT_/wap/themes/mobile/templates/init_custom.vm
+	at com.liferay.portal.velocity.LiferayResourceManager.doGetResource(LiferayResourceManager.java:164)
+	at com.liferay.portal.velocity.LiferayResourceManager.getResource(LiferayResourceManager.java:107)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1400)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:198)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:175)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:336)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:263)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:175)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:336)
+	at org.apache.velocity.Template.merge(Template.java:328)
+	at org.apache.velocity.Template.merge(Template.java:235)
+	at com.liferay.portal.velocity.VelocityTemplate.processTemplate(VelocityTemplate.java:112)
+	at com.liferay.portal.template.AbstractTemplate.processTemplate(AbstractTemplate.java:108)
+	... 133 more
+Dez 22, 2013 10:09:53 AM org.apache.catalina.core.ApplicationDispatcher invoke
+Schwerwiegend: Servlet.service() for servlet jsp threw exception
+java.lang.IllegalStateException: getOutputStream() has already been called for this response
+	at org.apache.catalina.connector.Response.getWriter(Response.java:638)
+	at org.apache.catalina.connector.ResponseFacade.getWriter(ResponseFacade.java:214)
+	at javax.servlet.ServletResponseWrapper.getWriter(ServletResponseWrapper.java:105)
+	at javax.servlet.ServletResponseWrapper.getWriter(ServletResponseWrapper.java:105)
+	at org.apache.jasper.runtime.JspWriterImpl.initOut(JspWriterImpl.java:125)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:324)
+	at java.io.Writer.write(Writer.java:157)
+	at org.apache.jsp.errors.code_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:461)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:338)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:428)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:201)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+10:10:06,206 ERROR [liferay/scheduler_dispatch-2][PortletBeanLocatorUtil:42] BeanLocator is null for servlet context calendar-portlet
+10:10:06,210 ERROR [liferay/scheduler_dispatch-2][ParallelDestination:72] Unable to process message {destinationName=liferay/scheduler_dispatch, response=null, responseDestinationName=null, responseId=null, payload=null, values={JOB_NAME=com.liferay.calendar.messaging.CheckBookingsMessageListener, EXCEPTIONS_MAX_SIZE=0, GROUP_NAME=com.liferay.calendar.messaging.CheckBookingsMessageListener, DESTINATION_NAME=liferay/scheduler_dispatch, PORTLET_ID=1_WAR_calendarportlet, JOB_STATE=com.liferay.portal.kernel.scheduler.JobState@3abb518c, companyId=0, MESSAGE_LISTENER_CLASS_NAME=com.liferay.calendar.messaging.CheckBookingsMessageListener, RECEIVER_KEY=com.liferay.calendar.messaging.CheckBookingsMessageListener.com.liferay.calendar.messaging.CheckBookingsMessageListener, MESSAGE_LISTENER_UUID=abf369c5-8b01-4e0e-b0d6-d6bb490d6103}}
+com.liferay.portal.kernel.messaging.MessageListenerException: com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context calendar-portlet
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at $Proxy426.receive(Unknown Source)
+	at com.liferay.portal.kernel.scheduler.messaging.SchedulerEventMessageListenerWrapper.receive(SchedulerEventMessageListenerWrapper.java:76)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:72)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:69)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:682)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:593)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context calendar-portlet
+	at com.liferay.portal.kernel.bean.PortletBeanLocatorUtil.locate(PortletBeanLocatorUtil.java:46)
+	at com.liferay.calendar.service.CalendarBookingLocalServiceUtil.getService(CalendarBookingLocalServiceUtil.java:633)
+	at com.liferay.calendar.service.CalendarBookingLocalServiceUtil.checkCalendarBookings(CalendarBookingLocalServiceUtil.java:364)
+	at com.liferay.calendar.messaging.CheckBookingsMessageListener.doReceive(CheckBookingsMessageListener.java:29)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:26)
+	... 12 more
+10:10:39,426 ERROR [com.liferay.portal.search.lucene.LuceneHelperImpl-1][LuceneIndexer:136] Error encountered while reindexing
+com.liferay.portal.kernel.search.SearchException: com.liferay.portlet.documentlibrary.NoSuchFileEntryException: No DLFileEntry exists with the primary key 23945
+	at com.liferay.portal.kernel.search.BaseIndexer.getDocument(BaseIndexer.java:179)
+	at com.liferay.portlet.messageboards.util.MBMessageIndexer$3.performAction(MBMessageIndexer.java:443)
+	at com.liferay.portal.kernel.dao.orm.BaseActionableDynamicQuery.performActionsInSingleInterval(BaseActionableDynamicQuery.java:309)
+	at com.liferay.portal.kernel.dao.orm.BaseActionableDynamicQuery.performActions(BaseActionableDynamicQuery.java:45)
+	at com.liferay.portlet.messageboards.util.MBMessageIndexer.reindexMessages(MBMessageIndexer.java:454)
+	at com.liferay.portlet.messageboards.util.MBMessageIndexer$2.performAction(MBMessageIndexer.java:403)
+	at com.liferay.portal.kernel.dao.orm.BaseActionableDynamicQuery.performActionsInSingleInterval(BaseActionableDynamicQuery.java:309)
+	at com.liferay.portal.kernel.dao.orm.BaseActionableDynamicQuery.performActions(BaseActionableDynamicQuery.java:45)
+	at com.liferay.portlet.messageboards.util.MBMessageIndexer.reindexDiscussions(MBMessageIndexer.java:412)
+	at com.liferay.portlet.messageboards.util.MBMessageIndexer.doReindex(MBMessageIndexer.java:340)
+	at com.liferay.portal.kernel.search.BaseIndexer.reindex(BaseIndexer.java:457)
+	at com.liferay.portal.search.lucene.LuceneIndexer.reindex(LuceneIndexer.java:159)
+	at com.liferay.portal.search.lucene.LuceneIndexer.doReIndex(LuceneIndexer.java:125)
+	at com.liferay.portal.search.lucene.LuceneIndexer.reindex(LuceneIndexer.java:64)
+	at com.liferay.portal.search.lucene.LuceneIndexer.run(LuceneIndexer.java:73)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:682)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:593)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: com.liferay.portlet.documentlibrary.NoSuchFileEntryException: No DLFileEntry exists with the primary key 23945
+	at com.liferay.portlet.documentlibrary.service.persistence.DLFileEntryPersistenceImpl.findByPrimaryKey(DLFileEntryPersistenceImpl.java:11110)
+	at com.liferay.portlet.documentlibrary.service.persistence.DLFileEntryPersistenceImpl.findByPrimaryKey(DLFileEntryPersistenceImpl.java:11128)
+	at com.liferay.portlet.documentlibrary.service.base.DLFileEntryLocalServiceBaseImpl.getDLFileEntry(DLFileEntryLocalServiceBaseImpl.java:292)
+	at sun.reflect.GeneratedMethodAccessor1249.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:115)
+	at com.liferay.portal.spring.transaction.DefaultTransactionExecutor.execute(DefaultTransactionExecutor.java:62)
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:51)
+	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:111)
+	at com.liferay.portal.spring.aop.ServiceBeanAopProxy.invoke(ServiceBeanAopProxy.java:175)
+	at $Proxy199.getDLFileEntry(Unknown Source)
+	at com.liferay.portlet.documentlibrary.service.DLFileEntryLocalServiceUtil.getDLFileEntry(DLFileEntryLocalServiceUtil.java:232)
+	at com.liferay.portlet.documentlibrary.util.DLFileEntryIndexer.addRelatedEntryFields(DLFileEntryIndexer.java:119)
+	at com.liferay.portlet.messageboards.util.MBMessageIndexer.doGetDocument(MBMessageIndexer.java:271)
+	at com.liferay.portal.kernel.search.BaseIndexer.getDocument(BaseIndexer.java:151)
+	... 17 more
