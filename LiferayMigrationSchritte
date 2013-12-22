@@ -26,13 +26,13 @@ javac.compiler=modern
 
 2.0	Erstelle Backup für Datenbank (Snapshot VM)
 
-2.0.1 Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
+2.1 Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
 cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_libary/10132/0/wiki/14014
 mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_verkuerzt.pdf/
 
 
 
-2.1 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
+2.2 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
 -> /opt/java/DbVisualizer-8.0.8/dbvis
 
 delete from PollsVote where voteId = 14865;
@@ -40,7 +40,7 @@ delete from PollsVote where voteId = 14875;
 delete from PollsVote where voteId = 17151;
 delete from PollsVote where voteId = 17152;
 
-2.2	Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
+2.3	Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
 -> delete from lportal.DLFileEntry where groupid = '11259';
 -> delete from lportal.DLFileVersion where groupid = '11259';
 
@@ -74,7 +74,7 @@ auto.deploy.tomcat.conf.dir=/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/to
 5. Ändere build.politaktiv.properties in liferaySdk dahingehend, dass Liferay- und Tomcatversionen stimmen	
 -> vi liferaySdk/build.politaktiv.properties
 
-6. Um AUI-Migration kümmern
+6.0 Um AUI-Migration kümmern (ACHTUNG: Bereits durchgeführt, bei Dappsen auf github geforked) 
 6.1 aptitude installieren, g++ installieren (beides benötigt für nodejs)
 sudu apt-get install aptitude
 sudo aptitude install g++
@@ -92,15 +92,15 @@ cd [liferaySdk/hooks]
 laut -f politaktiv-theme/
 (+ evtl empty theme)
 
+7. Lösche calendar-portlet aus tomcat-7.0.42/webapps, da dieser beim Start fehler wirft (wurde abgesprochen, dass erlaubt) 
+
 
 6.0	Verändere im look-and-feel.xml die Versionsnummern von politaktiv-layouts, politaktiv-theme und politaktiv-empty-theme, sodass diese mit Liferay 6.2.0+ übereinstimmen
+(ACHTUNG: auch schon auf Github)
 
-6.1	Wie beschreiben in https://www.themeray.com/de/blog/-/blogs/no-theme-found-for-specified-theme-id-%E2%80%A6-returning-the-default-theme
-	wird context.xml-Datei mit antiResourceLocking="true" jeweils ins META-INF der Themes gesetzt. (Da "true" eigentlich etwas seltsam ist, habe ich auch false ausprobiert) 
 
-6.2 Build und gradle deploy
-7. Lösche calendar-portlet aus tomcat-7.0.42/webapps, da dieser beim Start fehler wirft (wurde abgesprochen, dass erlaubt) (optional)
+
 8. Erstelle neue Server-Instanz, basierend auf 6.2 und nun Tomcat 7.0.42
 9. Starte den Server. Im liferay-portal-6.2.0-ga1/deploy Verzeichnis befinden sich die WARs des layouts und der themes.  
-10. Uprade läuft durch, meistens keine Exceptions (nur: ERRORs von Liferay). Nach dem Upgrade jedoch Probleme beim Start. 
+10. Uprade läuft durch, meistens keine Exceptions (nur: ERRORs von Liferay, weisen auf DB-Probleme hin) Nach dem Upgrade jedoch Probleme beim Start. 
 
