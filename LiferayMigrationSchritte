@@ -27,13 +27,18 @@ javac.compiler=modern
 2.0	Erstelle Backup für Datenbank (Snapshot VM)
 
 2.0.1 Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
-cd ~/code/liferay-portaol-6.2.0-ce-ga1/data/document_libary/10132/0/wiki/14014
+cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_libary/10132/0/wiki/14014
 mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_verkuerzt.pdf/
 
 
 
 2.1 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
 -> /opt/java/DbVisualizer-8.0.8/dbvis
+
+delete from PollsVote where voteId = 14865;
+delete from PollsVote where voteId = 14875;
+delete from PollsVote where voteId = 17151;
+delete from PollsVote where voteId = 17152;
 
 2.2	Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
 -> delete from lportal.DLFileEntry where groupid = '11259';
