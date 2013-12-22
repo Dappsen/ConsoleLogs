@@ -1,0 +1,2 @@
+Fehlermeldungen a la "velocity templyte not found" verschwinden bei server neustart
+mit Path scheint immer noch etwas nicht zu stimmen. Bei Aufruf von localhost werden variablen nicht erkannt
