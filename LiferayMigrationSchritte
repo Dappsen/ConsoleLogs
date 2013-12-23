@@ -71,13 +71,52 @@ delete from PollsVote;
 2.7 Assets
 -- sollte leer sein --------------------------------------
 select * from AssetEntry where userId = 20538;
-select * from AssetEntry where groupId = 16527
+select * from AssetEntry where groupId = 16527;
 
 -- change old mje user to new ----------------------------
 update AssetEntry set userId = 10485 
   where userId = 20538;
 
 delete from AssetEntry where groupId = 16527;
+
+2.8 DLFileEntry
+-- sollte leer sein --------------------------------------
+select * from DLFileEntry where userId = 20538;
+
+-- change old mje user to new ----------------------------
+update DLFileEntry set userId = 10485 
+  where userId = 20538;
+  
+2.9 DLFolder
+-- sollte leer sein --------------------------------------
+select * from DLFolder where userId = 20538;
+
+-- change old mje user to new ----------------------------
+update DLFolder set userId = 10485 
+  where userId = 20538;
+
+2.10 MBMessage
+-- sollte leer sein --------------------------------------
+select * from MBMessage where userId = 20538;
+select * from MBMessage where groupId = 16527;
+
+-- change old mje user to new ----------------------------
+update MBMessage set userId = 10485 
+  where userId = 20538;
+delete from MBMessage where groupId = 16527;
+
+
+2.11 MBThread
+-- sollte leer sein --------------------------------------
+select * from MBThread where userId = 20538;
+select * from MBThread where groupId = 16527;
+
+-- change old mje user to new ----------------------------
+update MBThread set userId = 10485 
+  where userId = 20538;
+delete from MBThread where groupId = 16527;
+  
+
 
 
 3. Entpacken & Kopiere Dateien von liferay-portal-6.1.0-ga1/data* nach liferay-portal-6.2.0-ga1
