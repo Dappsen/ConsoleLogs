@@ -71,10 +71,13 @@ delete from PollsVote;
 2.7 Assets
 -- sollte leer sein --------------------------------------
 select * from AssetEntry where userId = 20538;
+select * from AssetEntry where groupId = 16527
 
 -- change old mje user to new ----------------------------
 update AssetEntry set userId = 10485 
   where userId = 20538;
+
+delete from AssetEntry where groupId = 16527;
 
 
 3. Entpacken & Kopiere Dateien von liferay-portal-6.1.0-ga1/data* nach liferay-portal-6.2.0-ga1
