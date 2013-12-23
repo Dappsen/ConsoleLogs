@@ -45,13 +45,25 @@ delete from PollsVote where voteId = 17152;
 2.4 MBThreadFlag um doppelte Relationen bereinigen:
 -> /opt/java/DbVisualizer-8.0.8/dbvis
 
--- sollte leer sein
+-- sollte leer sein --------------------------
 select * from MBThreadFlag as a, MBThreadFlag as b 
 where a.userId = b.userId and a.threadId = b.threadId and a.threadFlagId <> b.threadFlagId;
 
--- deletes
+-- deletes ------------------------------
 delete from MBThreadFlag where threadFlagId in (49173, 82011, 82012, 82014, 82017);
 
+2.5 ResourceBlock um doppelte Relationen bereinigen:
+-> /opt/java/DbVisualizer-8.0.8/dbvis
+
+-- sollte leer sein ---------------------------
+select * 
+from ResourceBlock as a join ResourceBlock as b
+        on a.companyId = b.companyId and a.groupId = b.groupId 
+        and a.name = b.name and a.permissionsHash = b.permissionsHash
+        and a.resourceBlockId <> b.resourceBlockId;
+
+-- deletes ------------------------------
+delete from ResourceBlock where resourceBlockId in (1, 3);
 
 
 3. Entpacken & Kopiere Dateien von liferay-portal-6.1.0-ga1/data* nach liferay-portal-6.2.0-ga1
