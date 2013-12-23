@@ -108,12 +108,15 @@ delete from MBMessage where groupId = 16527;
 
 2.11 MBThread
 -- sollte leer sein --------------------------------------
-select * from MBThread where userId = 20538;
+select * from MBThread where lastPostByUserId = 20538;
+select * from MBThread where rootMessageUserId = 20538;
 select * from MBThread where groupId = 16527;
 
 -- change old mje user to new ----------------------------
-update MBThread set userId = 10485 
-  where userId = 20538;
+update MBThread set lastPostByUserId = 10485 
+  where lastPostByUserId = 20538;
+update MBThread set rootMessageUserId = 10485 
+  where rootMessageUserId = 20538;
 delete from MBThread where groupId = 16527;
   
 
