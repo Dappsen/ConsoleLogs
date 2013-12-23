@@ -27,10 +27,8 @@ javac.compiler=modern
 2.0	Erstelle Backup für Datenbank (Snapshot VM)
 
 2.1 Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
-cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_libary/10132/0/wiki/14014
-mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_verkuerzt.pdf/
-
-
+-> cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_libary/10132/0/wiki/14014
+-> mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_verkuerzt.pdf/
 
 2.2 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
 -> /opt/java/DbVisualizer-8.0.8/dbvis
@@ -76,9 +74,9 @@ auto.deploy.tomcat.conf.dir=/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/to
 
 6.0 Um AUI-Migration kümmern (ACHTUNG: Bereits durchgeführt, bei Dappsen auf github geforked) 
 6.1 aptitude installieren, g++ installieren (beides benötigt für nodejs)
--> sudo apt-get install g++ 
--> (sudo apt-get install build-essencials)
-(aptitude is an alternative to apt-get)
+-> (sudo apt-get install g++ - aptitude is an alternative to apt-get)
+-> sudo apt-get install build-essencial
+
 
 6.1 nodejs installieren  (benötigt für upgrade tool)
 Download von: http://nodejs.org/
