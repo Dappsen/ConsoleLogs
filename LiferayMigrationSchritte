@@ -27,7 +27,7 @@ javac.compiler=modern
 2.0	Erstelle Backup für Datenbank (Snapshot VM)
 
 2.1 Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
--> cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_libary/10132/0/wiki/14014
+-> cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_library/10132/0/wiki/14014
 -> mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_verkuerzt.pdf/
 
 2.2 Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
