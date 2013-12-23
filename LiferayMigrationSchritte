@@ -65,6 +65,17 @@ from ResourceBlock as a join ResourceBlock as b
 -- deletes ------------------------------
 delete from ResourceBlock where resourceBlockId in (1, 3);
 
+2.6 PollsVote
+delete from PollsVote;
+
+2.7 Assets
+-- sollte leer sein --------------------------------------
+select * from AssetEntry where userId = 20538;
+
+-- change old mje user to new ----------------------------
+update AssetEntry set userId = 10485 
+  where userId = 20538;
+
 
 3. Entpacken & Kopiere Dateien von liferay-portal-6.1.0-ga1/data* nach liferay-portal-6.2.0-ga1
 -> cd code
