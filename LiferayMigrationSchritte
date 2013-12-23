@@ -76,17 +76,21 @@ auto.deploy.tomcat.conf.dir=/home/politaktiv/code/liferay-portal-6.2.0-ce-ga1/to
 
 6.0 Um AUI-Migration kümmern (ACHTUNG: Bereits durchgeführt, bei Dappsen auf github geforked) 
 6.1 aptitude installieren, g++ installieren (beides benötigt für nodejs)
-sudu apt-get install aptitude
-sudo aptitude install g++
+-> sudo apt-get install g++ 
+-> (sudo apt-get install build-essencials)
+(aptitude is an alternative to apt-get)
+
 6.1 nodejs installieren  (benötigt für upgrade tool)
 Download von: http://nodejs.org/
 cd [nodejsVerzeichnis]
 ./configure
 make
 sudo make install
+
 6.2 upgrade tool installieren 
 git clone https://github.com/PolitAktiv/liferay-aui-upgrade-tool.git
 sudo npm install -g laut
+
 6.2 upgrade tool anwenden
 cd [liferaySdk/hooks]
 laut -f politaktiv-theme/
@@ -99,8 +103,9 @@ laut -f politaktiv-theme/
 (ACHTUNG: auch schon auf Github)
 
 
-
 8. Erstelle neue Server-Instanz, basierend auf 6.2 und nun Tomcat 7.0.42
+
 9. Starte den Server. Im liferay-portal-6.2.0-ga1/deploy Verzeichnis befinden sich die WARs des layouts und der themes.  
+
 10. Uprade läuft durch, meistens keine Exceptions (nur: ERRORs von Liferay, weisen auf DB-Probleme hin) Nach dem Upgrade jedoch Probleme beim Start. 
 
