@@ -144,6 +144,9 @@ com.liferay.portal.deploy.hot.PortletHotDeployListener,\
 com.liferay.portal.deploy.hot.ThemeHotDeployListener,\
 com.liferay.portal.deploy.hot.ThemeLoaderHotDeployListener,\
 com.liferay.portal.deploy.hot.MessagingHotDeployListener
+
+# Make sure to be logged in after upgrade
+passwords.encryption.algorithm.legacy=SHA
 ->
 -> vi liferay-portal-6.2.0-ce-ga1/portal-ide.properties
 ->
