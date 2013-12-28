@@ -1,5 +1,3 @@
-TODO: Bemerkung: Nummerierung wird noch verbessert wenn fertig.
-
 Schritte Migration
 ===================
 #1. Download
@@ -83,6 +81,8 @@ cd ~/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps
 rm -r calendar-portlet
 rm -r welcome-theme
 ```
+##Deploy needed portlets
+* PA-Theme
 
 #2 Daten Migration
 
