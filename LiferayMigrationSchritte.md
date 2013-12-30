@@ -83,6 +83,13 @@ rm -r welcome-theme
 ```
 ##Deploy needed portlets
 * PA-Theme
+ 
+##Add ruby support for themes
+See https://issues.liferay.com/browse/LPS-26199, https://issues.liferay.com/browse/LPS-41284
+``` bash
+apt-get install ruby1.9.1
+gem install sass --pre
+```
 
 #2 Daten Migration
 
