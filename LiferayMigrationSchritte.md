@@ -198,6 +198,13 @@ update MBThread set rootMessageUserId = 10485
 delete from MBThread where groupId = 16527;
 ```
 
+##Set new Theme
+posible themes are: politaktiv_WAR_politaktivtheme, politaktivdefault_WAR_politaktivdefaulttheme, classic
+
+update LayoutSet set themeId = 'classic', wapThemeId = 'classic'
+update Layout set themeId = null, wapThemeId = null
+
+
 #3. Start Server
 
 
