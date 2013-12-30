@@ -87,8 +87,9 @@ rm -r welcome-theme
 ##Add ruby support for themes
 See https://issues.liferay.com/browse/LPS-26199, https://issues.liferay.com/browse/LPS-41284
 ``` bash
-apt-get install ruby1.9.1
+apt-get install ruby rubygems
 gem install sass --pre
+gem install compass
 ```
 
 #2 Daten Migration
