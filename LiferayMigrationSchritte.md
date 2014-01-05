@@ -200,8 +200,9 @@ delete from MBThread where groupId = 16527;
 posible themes are: politaktiv_WAR_politaktivtheme, politaktivdefault_WAR_politaktivdefaulttheme, classic
 
 ``` sql
-update LayoutSet set themeId = 'politaktivdefault_WAR_politaktivdefaulttheme', wapThemeId = 'politaktivdefault_WAR_politaktivdefaulttheme'
-update Layout set themeId = '', wapThemeId = ''
+update LayoutSet set themeId = 'politaktivdefault_WAR_politaktivdefaulttheme', wapThemeId = 'politaktivdefault_WAR_politaktivdefaulttheme';
+update LayoutSet set themeId = 'classic', wapThemeId = 'classic';
+update Layout set themeId = '', wapThemeId = '';
 ```
 
 
