@@ -81,16 +81,6 @@ cd ~/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps
 rm -r calendar-portlet
 rm -r welcome-theme
 ```
-##Deploy needed portlets
-* PA-Theme
- 
-##Add ruby support for themes
-See https://issues.liferay.com/browse/LPS-26199, https://issues.liferay.com/browse/LPS-41284
-``` bash
-apt-get install ruby rubygems
-gem install sass --pre
-gem install compass
-```
 
 #2 Daten Migration
 
@@ -113,8 +103,8 @@ delete from PollsVote;
 
 ##Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
 ``` sql
--> delete from lportal.DLFileEntry where groupid = '11259';
--> delete from lportal.DLFileVersion where groupid = '11259';
+delete from lportal.DLFileEntry where groupid = '11259';
+delete from lportal.DLFileVersion where groupid = '11259';
 ```
 
 ##MBThreadFlag um doppelte Relationen bereinigen:
@@ -124,7 +114,7 @@ select * from MBThreadFlag as a, MBThreadFlag as b
 where a.userId = b.userId and a.threadId = b.threadId and a.threadFlagId <> b.threadFlagId;
 
 -- deletes ------------------------------
-delete from MBThreadFlag where threadFlagId in (49173, 82011, 82012, 82014, 82017);
+delete from MBThreadFlag where threadFlagId in (49173, 82011, 82012, 82014, 82017, 83760, 83759, 87768, 87767);
 ```
 
 ##ResourceBlock um doppelte Relationen bereinigen:
@@ -211,11 +201,23 @@ posible themes are: politaktiv_WAR_politaktivtheme, politaktivdefault_WAR_polita
 
 ``` sql
 update LayoutSet set themeId = 'politaktivdefault_WAR_politaktivdefaulttheme', wapThemeId = 'politaktivdefault_WAR_politaktivdefaulttheme'
-update Layout set themeId = null, wapThemeId = null
+update Layout set themeId = '', wapThemeId = ''
 ```
 
 
 #3. Start Server
+
+#x. Not confirmed Stuff
+##Deploy needed portlets
+* PA-Theme
+ 
+##Add ruby support for themes
+See https://issues.liferay.com/browse/LPS-26199, https://issues.liferay.com/browse/LPS-41284
+``` bash
+apt-get install ruby rubygems
+gem install sass --pre
+gem install compass
+```
 
 
 #OneTime Stuff
