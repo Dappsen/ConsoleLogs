@@ -81,6 +81,8 @@ cd ~/code/liferay-portal-6.2.0-ce-ga1/tomcat-7.0.42/webapps
 rm -r calendar-portlet
 rm -r welcome-theme
 ```
+#2 Produktive Daten sichern
+## Polls Votes in Excel exportieren
 
 #2 Daten Migration
 
