@@ -86,7 +86,12 @@ rm -r welcome-theme
 
 #2 Daten Migration
 
-##Erstelle Backup für Datenbank (Snapshot VM)
+##Erstelle Backup für Datenbank & Data-Verzeichnis (Snapshot VM)
+
+##Löschen von nicht genutzem Bilder-Repo
+``` bash
+rm -r images
+```
 
 ##Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
 ``` bash
