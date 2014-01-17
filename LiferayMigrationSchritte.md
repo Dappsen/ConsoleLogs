@@ -19,6 +19,11 @@ mv liferay-plugins-sdk-6.2.0 liferaySdk
 ```
 
 #2 Install & config
+##Additional Tools
+``` bash
+sudo apt-get install meld
+```
+
 ##liferay portal
 
 ``` bash
