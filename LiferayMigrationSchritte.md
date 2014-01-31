@@ -107,7 +107,7 @@ mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_ve
 ##Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
 ``` bash
 /opt/java/DbVisualizer-8.0.8/dbvis
-mysql -hlocalhost -umys -Dlportal_staging -e ""
+mysql -hlocalhost -umysql_staging -pxxxxx -Dlportal_staging -e ""
 ```
 
 ``` sql
@@ -116,11 +116,11 @@ delete from PollsVote;
 
 ##Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
 ``` sql
-select * from lportal.DLFileEntry where groupid = '11259';
-select * from lportal.DLFileVersion where groupid = '11259';
+select * from DLFileEntry where groupid = '11259';
+select * from DLFileVersion where groupid = '11259';
 
-delete from lportal.DLFileEntry where groupid = '11259';
-delete from lportal.DLFileVersion where groupid = '11259';
+delete from DLFileEntry where groupid = '11259';
+delete from DLFileVersion where groupid = '11259';
 ```
 
 ##MBThreadFlag um doppelte Relationen bereinigen:
