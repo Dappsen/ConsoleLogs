@@ -95,18 +95,19 @@ rm -r welcome-theme
 
 ##Löschen von nicht genutzem Bilder-Repo
 ``` bash
-rm -r images
+rm -r /var/lib/liferay/data/images
 ```
 
 ##Umbennennen: Ordner, der zu Datenbankproblemen beim Update führt:
 ``` bash
-cd ~/code/liferay-portal-6.2.0-ce-ga1/data/document_library/10132/0/wiki/14014
+cd /var/lib/liferay/data/document_library/10132/0/wiki/14014
 mv Protokoll_20110409_Fachbeirat_verk\?rzt.pdf/ Protokoll_20110409_Fachbeirat_verkuerzt.pdf/
 ```
 
 ##Lösche aus root@localhost/lportal/TABLE/PollsVote das offensichtliche Duplikat, würde zu Fehlern führen
 ``` bash
 /opt/java/DbVisualizer-8.0.8/dbvis
+mysql -hlocalhost -umys -Dlportal_staging -e ""
 ```
 
 ``` sql
