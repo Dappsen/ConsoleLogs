@@ -115,6 +115,9 @@ delete from PollsVote;
 
 ##Lösche aus root@localhost/lportal/TABLE/DLFileEntry und aus ../DLFileVersion alle Einträge mit mit groupID=11259, würde zu Fehlern führen
 ``` sql
+select * from lportal.DLFileEntry where groupid = '11259';
+select * from lportal.DLFileVersion where groupid = '11259';
+
 delete from lportal.DLFileEntry where groupid = '11259';
 delete from lportal.DLFileVersion where groupid = '11259';
 ```
@@ -126,7 +129,7 @@ select * from MBThreadFlag as a, MBThreadFlag as b
 where a.userId = b.userId and a.threadId = b.threadId and a.threadFlagId <> b.threadFlagId;
 
 -- deletes ------------------------------
-delete from MBThreadFlag where threadFlagId in (49173, 82011, 82012, 82014, 82017, 83760, 83759, 87768, 87767);
+delete from MBThreadFlag where threadFlagId in (49172, 49173, 82010, 82011, 82012, 82014, 82016, 82017, 83760, 83759, 87768, 87767);
 ```
 
 ##ResourceBlock um doppelte Relationen bereinigen:
@@ -148,11 +151,14 @@ delete from ResourceBlock where resourceBlockId in (1, 3);
 ``` sql
 -- sollte leer sein --------------------------------------
 select * from AssetEntry where userId = 20538;
+select * from AssetEntry where userId = 33404;
 select * from AssetEntry where groupId = 16527;
 
 -- change old mje user to new ----------------------------
 update AssetEntry set userId = 10485 
   where userId = 20538;
+update AssetEntry set userId = 12380 
+  where userId = 33404;
 
 delete from AssetEntry where groupId = 16527;
 ```
