@@ -1,5 +1,5 @@
-Schritte Migration
-===================
+Deprecated - Schritte Migration
+===============================
 #1. Download
 ##Liferay Portal
 lege Ordner liferay-portal-6.2.0-ga1 ins ~/code Verzeichnis
